@@ -1,0 +1,280 @@
+{
+    "principal": {
+        "titulo": "Currículo",
+        "secoes": {
+            "apresentacao": "Apresentação",
+            "habilidadesTecnicas": "Habilidades Técnicas",
+            "formacaoAcademica": "Formação Acadêmica",
+            "outrosCursos": "Outros Cursos",
+            "livros": "Livros",
+            "idiomas": "Idiomas",
+            "experienciaProfissional": "Experiência Profissional",
+            "sobreMim": "Sobre mim (pessoal)",
+            "apendice": "Apêndice – Lista com os cursos mais importantes"
+        }
+    },
+    "dadosPessoais": {
+        "nome": "Nome",
+        "idade": "Idade",
+        "anos": "anos",
+        "localidade": "Localidade",
+        "maringa": "Maringá - Paraná",
+        "curriculoOnlineLabel": "Currículo Online",
+        "curriculoOnlineLink": "https://vinibas.github.io/curriculo/",
+        "curriculoOnlineTexto": "https://vinibas.github.io/curriculo",
+        "observacao": "Os contatos aqui estavam gerando spam. Por isso, para me contactar, utilize o LinkedIn. Obrigado!"
+    },
+    "titulo": {
+        "titulo": "Desenvolvedor Web Full-stack",
+        "subtitulo": ".NET API, MVC e Angular"
+    },
+    "apresentacao": "assets/i18n/pt/apresentacao.html",
+    "habilidadesTecnicas": {
+        "tecnologias": "Tecnologias",
+        "artigoE": "e",
+        "autenticacaoNet": "autenticação .Net",
+        "bancoDeDados": "Banco de dados",
+        "relacional": "Relacional",
+        "merDer": "MER, DER",
+        "procedures": "Procedures",
+        "testes": "Testes",
+        "diagramas": "diagramas",
+        "listaDiagramas": "Casos de Uso, Classes, Objetos, Pacotes, Sequência, Comunicação, Máquina de Estados, Atividade, Visão Geral de Interação, Componentes, Implantação, Estrutura Composta, Tempo/Temporização.",
+        "padroes": "Padrões",
+        "deProjeto": "De projeto",
+        "deArquitetura": "De arquitetura",
+        "deQualidade": "De qualidade de código",
+        "deMetodologiaAgil": "Metodologia Ágil"
+    },
+    "formacaoAcademica": {
+        "universidadeVeigaDeAlmeida": "Universidade Veiga de Almeida",
+        "bachareladoEmCDC": "Bacharelado em Ciência da Computação",
+        "periodo": "Início: 2009 – Conclusão: 2014"
+    },
+    "outrosCursos": "assets/i18n/pt/outros-cursos.html",
+    "livros": "assets/i18n/pt/livros.html",
+    "idiomas": {
+        "portugues": "Português: Nativo.",
+        "espanhol": {
+            "espanhol": "Espanhol",
+            "intermediario": "Intermediário – Fala, escrita.",
+            "avancado": "Avançado – Compreensão, leitura."
+        },
+        "ingles": "Inglês: Intermediário / técnico."
+    },
+    "experienciaProfissional": {
+        "labels": {
+            "empresa": "Empresa",
+            "consultoria": "Consultoria",
+            "inicio": "Início",
+            "fim": "Fim",
+            "atual": "atual",
+            "descricao": "Descrição",
+            "atividades": "Atividades"
+        },
+        "empresas": [
+            {
+                "nome": "THS Tecnologia",
+                "inicio": "junho de 2024",
+                "fim": "setembro de 2024",
+                "descricao": "Desenvolvedor fullstack .NET e Angular",
+                "atividades": [
+                    "Desenvolvimento de novas funcionalidades e ",
+                    "manutenção das já desenvolvidas no novo sistema de ",
+                    "intranet do CICC-SP, utilizando Asp.net, SQL Server ",
+                    "e Angular. Arquitetura focada em Clean Architecture e CQRS."
+                ]
+            },
+            {
+                "nome": "Smart Travel",
+                "inicio": "novembro de 2022",
+                "fim": "junho de 2024",
+                "descricao": "Desenvolvedor fullstack .NET e Angular",
+                "atividades": [
+                    "Desenvolvimento de novas funcionalidades, ",
+                    "manutenção e correção de erros no SmartBus, sistema de ",
+                    "venda e gestão de passagens rodoviárias, utilizando ",
+                    "Asp.net (framework 4.6, e versões 7 e 8), SQL Server, ",
+                    "Angular e RabbitMQ. Fui responsável pela criação de dois ",
+                    "projetos do zero, tanto no design de arquitetura quanto ",
+                    "na codificação, visando o processamento de alto volume ",
+                    "de dados em lote, ambos utilizando Clean Architecture, ",
+                    "e um deles utilizando CQRS, com processamento assíncrono ",
+                    "e em filas utilizando o RabbitMQ, com comunicação entre ",
+                    "ambos usando tanto filas do RabbitMQ quanto Rest. ",
+                    "Os novos sistemas também representaram significativa ",
+                    "melhoria na implementação do multitenant."
+                ]
+            },
+            {
+                "nome": "Prodesp",
+                "consultoria": "G&P",
+                "inicio": "junho de 2022",
+                "fim": "setembro de 2022",
+                "descricao": "Desenvolvedor .NET backend",
+                "atividades": [
+                    "Desenvolvimento backend utilizando Asp.net 6, ",
+                    "SQL Server, MongoDB, RabbitMQ e NodeJS, dentre outras ",
+                    "tecnologias, em uma arquitetura de microsserviços com ",
+                    "CQRS. Atuação no projeto do Diário Oficial de SP. ",
+                    "Participei da criação de pequenos projetos, em ",
+                    "particular, fui responsável pela criação do zero de ",
+                    "um projeto de geração de documentos em PDF em NodeJS, ",
+                    "utilizando filas do RabbitMQ, em Clean Architecture."
+                ]
+            },
+            {
+                "nome": "Farmarcas",
+                "consultoria": "Pasquali Solution",
+                "inicio": "julho de 2021",
+                "fim": "junho de 2022",
+                "descricao": "Desenvolvedor fullstack .NET e Angular",
+                "atividades": [
+                    "Desenvolvimento de novas funcionalidades, ",
+                    "manutenção e correção de erros no Radar, sistema que ",
+                    "oferece diversas ferramentas de gestão para os ",
+                    "empresários associados. Utilizamos principalmente ",
+                    "Asp.net Core nas API's, Angular no front-end e MySql ",
+                    "no banco de dados, além de outras tecnologias no ",
+                    "entorno. Também ajudei na implementação de filas ",
+                    "usando o RabbitMQ, e fui responsável pelo ",
+                    "desenvolvimento de diversas épicas importantes ",
+                    "como fullstack."
+                ]
+            },
+            {
+                "nome": "Banco BS2",
+                "consultoria": "K2",
+                "inicio": "julho de 2020",
+                "fim": "junho de 2021",
+                "descricao": "Desenvolvedor .NET",
+                "atividades": [
+                    "Manutenção, análise e correção de erros, implementação ",
+                    "de novas funcionalidades em API’s .Net Core, com CQRS, ",
+                    "enfileiramento com RabbitMQ (o qual ajudei a implementar), ",
+                    "SQL Server e integração com outros sistemas. ",
+                    "Trabalhei no squad/microsserviço de Cobranças PJ, ",
+                    "e fui o Security Champion do time, participando ",
+                    "também do squad de Segurança da Informação, atuando ",
+                    "junto ao time de SI para melhores práticas de segurança ",
+                    "e correções de possíveis vulnerabilidades. ",
+                    "Tive uma forte atuação na geração de boletos em PDF e ",
+                    "na reescrita da geração de CNAB para suportar ",
+                    "processamento de alto volume de dados em lote."
+                ]
+            },
+            {
+                "nome": "Itaú",
+                "consultoria": "Certsys",
+                "inicio": "setembro de 2019",
+                "fim": "março de 2020",
+                "descricao": "Desenvolvedor .NET e Angular",
+                "atividades": [
+                    "Fui um dos responsáveis por realizar parte do ",
+                    "tombamento (reescrita de código) de um sistema ",
+                    "legado interno de MPA (Asp.net MVC antigo) para ",
+                    "SPA com Angular e .NET Core. Tal projeto consistia ",
+                    "em um sistema de controle de scripts e rotinas a ",
+                    "serem solicitadas a execução por usuários sem privilégio. ",
+                    "O front-end foi redesenhado para uma interface ",
+                    "mais bonita e usual, e o back-end foi refatorado ",
+                    "para atender ao novo front-end e ser substituído ",
+                    "pela versão .Net Core. Tratou-se de um contrato ",
+                    "temporário, encerrado quando terminaram as ",
+                    "horas disponíveis para a alocação."
+                ]
+            },
+            {
+                "nome": "Santander",
+                "consultoria": "Indra",
+                "inicio": "março de 2019",
+                "fim": "setembro de 2019",
+                "descricao": "Desenvolvedor front-end em Angular 7",
+                "atividades": [
+                    "Fui o responsável técnico pela criação do front-end do ",
+                    "sistema de Cadastro Nacional de Clientes, um sistema ",
+                    "interno importante que estava sendo totalmente reescrito, ",
+                    "que permitia diversos tipos de consulta em toda a ",
+                    "base de clientes. Desenvolvi a arquitetura (front-end) ",
+                    "do projeto desde o zero, incluindo tanto a lógica ",
+                    "de programação quanto o layout, e programei a ",
+                    "maior parte dele até minha saída. Neste projeto ",
+                    "não desenvolvi back-end."
+                ]
+            },
+            {
+                "nome": "XMS Business Solutions (Chile)",
+                "inicio": "março de 2018",
+                "fim": "novembro de 2018",
+                "descricao": "Desenvolvedor em .Net, .Net Core, AngularJS e Angular.",
+                "atividades": [
+                    "Consultoria e desenvolvimento de sistemas utilizando Asp.net ",
+                    "(Framework e Core), C#, SQL Server, AngularJS e Angular. ",
+                    "Como uma fábrica de software, participei do desenvolvimento ",
+                    "de alguns produtos do início ao fim como full-stack developer ",
+                    ".Net + Angular (JS e 2+), contribuindo inclusive com ",
+                    "modelagens de entidades. Dentre esses projetos, destaque ",
+                    "para o sistema de controle de pós-venda da SalfaCorp, ",
+                    "uma gigante da engenharia no Chile, e também um sistema ",
+                    "de cursos online, e outro completo de avaliações, onde ",
+                    "podia-se cadastrar provas, com diversos tipos de questões, ",
+                    "execução pelo aluno, correção automática das objetivas e ",
+                    "correção pelo professor das discursivas."
+                ]
+            },
+            {
+                "nome": "Confitec",
+                "inicio": "agosto de 2013",
+                "fim": "outubro de 2016",
+                "descricao": "Analista de sistemas e desenvolvedor em .Net.",
+                "atividades": [
+                    "Trabalhei, inicialmente, no desenvolvimento do principal ",
+                    "produto próprio da empresa, o Gepro, que era um sistema ",
+                    "que apresentava relatórios e apontava possíveis ",
+                    "inconsistências nas bases das grandes seguradoras do país. ",
+                    "Neste sistema, em Asp.net Webforms, Crystal Reports e ",
+                    "MS Sql Server, ganhei bastante experiência na criação e ",
+                    "manutenção de procedures, que eram a fonte de diversos ",
+                    "relatórios do Crystal.",
+                    "<br>Após isto, migrei para o Portal do Corretor, importante ",
+                    "sistema da Brasil Brokers, utilizado por corretores e pela ",
+                    "administração interna, onde ficavam cadastrados tanto os ",
+                    "imóveis quanto os clientes, os clientes potenciais com ",
+                    "seus interesses, e as vendas. Foi o projeto em que dediquei ",
+                    "mais tempo na empresa.",
+                    "<br>Ocasionalmente, ajudava também no portal da Brasil Brokers, de outro time.",
+                    "<br>Auxiliei no desenvolvimento inicial do Girus, ",
+                    "novo sistema similar ao Gepro, para resseguro.",
+                    "<br>Realizei trabalho de análise e soluções de erros, ",
+                    "desenvolvimento de novos módulos e funcionalidades dos sistema, ",
+                    "levantamento de requisitos com o cliente, escrita de documentação. ",
+                    "Principais tecnologias utilizadas: Asp.net, C# e SQL Server."
+                ]
+            },
+            {
+                "nome": "IMAGO IT Solutions",
+                "inicio": "janeiro de 2013",
+                "fim": "junho de 2013",
+                "descricao": "Estágio em desenvolvimento web utilizando asp.net.",
+                "atividades": [
+                    "Análise e solução de erros; auxílio no desenvolvimento de ",
+                    "novos sistemas; escrita de documentação e execução manual ",
+                    "de testes. Principais tecnologias utilizadas: Asp.net, ",
+                    "C# e SQL Server. O principal cliente para o qual trabalhei ",
+                    "foi a Cultura Inglesa, onde participei do desenvolvimento ",
+                    "de um portal de ensino a distância (curso online) e de ",
+                    "manutenção em sistema em Asp clássico."
+                ]
+            }
+        ],
+        "textoExtra": [
+            "Além das experiências citadas acima, antes delas, estagiei outras ",
+            "duas vezes como desenvolvedor, duas vezes com suporte técnico, ",
+            "fui técnico de manutenção na Caixa Econômica, e meu primeiro ",
+            "emprego foi como atendente de telemarketing da Tim, aos 18 anos."
+        ]
+    },
+    "sobreMim": "assets/i18n/pt/sobre-mim.html",
+    "apendiceCursos": "assets/i18n/pt/apendice-cursos.html"
+
+}

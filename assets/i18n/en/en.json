@@ -1,0 +1,273 @@
+{
+    "principal": {
+        "titulo": "Resume",
+        "secoes": {
+            "apresentacao": "Profile Summary",
+            "habilidadesTecnicas": "Technical Skills",
+            "formacaoAcademica": "Academic Background",
+            "outrosCursos": "Additional Courses",
+            "livros": "Books",
+            "idiomas": "Languages",
+            "experienciaProfissional": "Professional Experience",
+            "sobreMim": "About Me (Personal Section)",
+            "apendice": "Appendix – List of Most Important Courses"
+        }
+    },
+    "dadosPessoais": {
+        "nome": "Name",
+        "idade": "Age",
+        "anos": "years",
+        "localidade": "Location",
+        "maringa": "Maringá, Paraná, Brazil",
+        "curriculoOnlineLabel": "Online Resume",
+        "curriculoOnlineLink": "https://vinibas.github.io/curriculo/?lang=en",
+        "curriculoOnlineTexto": "https://vinibas.github.io/curriculo",
+        "observacao": "Contact information not included for privacy. Please reach out through LinkedIn. Thank you!"
+    },
+    "titulo": {
+        "titulo": "Full-Stack Web Developer",
+        "subtitulo": ".NET API, MVC, and Angular"
+    },
+    "apresentacao": "assets/i18n/en/apresentacao.html",
+    "habilidadesTecnicas": {
+        "tecnologias": "Technologies",
+        "artigoE": "and",
+        "autenticacaoNet": ".Net Authentication",
+        "bancoDeDados": "Databases",
+        "relacional": "Relational",
+        "merDer": "ER Model, ER Diagram",
+        "procedures": "Stored Procedures",
+        "testes": "Testing",
+        "diagramas": "Diagrams",
+        "listaDiagramas": "Use Case, Class, Object, Package, Sequence, Communication, State Machine, Activity, Interaction Overview, Component, Deployment, Composite Structure, Timing.",
+        "padroes": "Patterns",
+        "deProjeto": "Design",
+        "deArquitetura": "Architecture",
+        "deQualidade": "Code Quality",
+        "deMetodologiaAgil": "Agile Methodologies"
+    },
+    "formacaoAcademica": {
+        "universidadeVeigaDeAlmeida": "Universidade Veiga de Almeida (Veiga de Almeida University)",
+        "bachareladoEmCDC": "Bachelor's in Computer Science",
+        "periodo": "Start: 2009 – Completion: 2014"
+    },
+    "outrosCursos": "assets/i18n/en/outros-cursos.html",
+    "livros": "assets/i18n/en/livros.html",
+    "idiomas": {
+        "portugues": "Portuguese: Native.",
+        "espanhol": {
+            "espanhol": "Spanish",
+            "intermediario": "Intermediate - spoken, written.",
+            "avancado": "Advanced - reading, comprehension."
+        },
+        "ingles": "English: Intermediate / Technical (Good reading comprehension, but not yet ready for live conversation)."
+    },
+    "experienciaProfissional": {
+        "labels": {
+            "empresa": "Company",
+            "consultoria": "Consultancy",
+            "inicio": "Start Date",
+            "fim": "End Date",
+            "atual": "current",
+            "descricao": "Description",
+            "atividades": "Activities"
+        },
+        "empresas": [
+            {
+                "nome": "THS Tecnologia",
+                "inicio": "June 2024",
+                "fim": "September 2024",
+                "descricao": "Fullstack Developer .NET and Angular",
+                "atividades": [
+                    "Development of new features and maintenance of existing ",
+                    "ones in the new CICC-SP intranet system, using ASP.NET, ",
+                    "SQL Server, and Angular. Architecture focused on Clean ",
+                    "Architecture and CQRS."
+                ]
+            },
+            {
+                "nome": "Smart Travel",
+                "inicio": "November 2022",
+                "fim": "June 2024",
+                "descricao": "Fullstack Developer .NET and Angular",
+                "atividades": [
+                    "Development of new features, maintenance, and bug fixes in ",
+                    "SmartBus, a bus ticket sales and management system, using ",
+                    "ASP.NET (framework 4.6, and versions 7 and 8), SQL Server, ",
+                    "Angular, and RabbitMQ. I was responsible for creating two ",
+                    "projects from scratch, including both architecture design ",
+                    "and coding, aimed at processing high-volume batch data. ",
+                    "Both projects used Clean Architecture, one with CQRS, with ",
+                    "inter-project communication via RabbitMQ queues and REST. ",
+                    "The new systems also represented a significant improvement ",
+                    "in the implementation of multitenancy."
+                ]
+            },
+            {
+                "nome": "Prodesp",
+                "consultoria": "G&P",
+                "inicio": "June 2022",
+                "fim": "September 2022",
+                "descricao": "Backend .NET Developer",
+                "atividades": [
+                    "Backend development using ASP.NET 6, SQL Server, MongoDB, ",
+                    "RabbitMQ, and Node.js, among other technologies, in a ",
+                    "microservices architecture with CQRS. Worked on the SP ",
+                    "Diário Oficial (Official Gazette) project, where I ",
+                    "contributed to small projects, including developing a ",
+                    "PDF document generation project from scratch in NodeJS, ",
+                    "using RabbitMQ queues within Clean Architecture."
+                ]
+            },
+            {
+                "nome": "Farmarcas",
+                "consultoria": "Pasquali Solution",
+                "inicio": "July 2021",
+                "fim": "June 2022",
+                "descricao": "Fullstack Developer .NET and Angular",
+                "atividades": [
+                    "Development of new features, maintenance, and bug fixing ",
+                    "for Radar, a system providing a range of management ",
+                    "tools for associated entrepreneurs. We primarily used ",
+                    "ASP.NET Core for the APIs, Angular for the frontend, ",
+                    "and MySQL for the database, along with other surrounding ",
+                    "technologies. I also helped implement queuing using ",
+                    "RabbitMQ, and I was responsible for developing several ",
+                    "important epics as a full-stack developer."
+                ]
+            },
+            {
+                "nome": "Banco BS2",
+                "consultoria": "K2",
+                "inicio": "July 2020",
+                "fim": "June 2021",
+                "descricao": ".NET Developer",
+                "atividades": [
+                    "Maintenance, bug analysis and resolution, implementation ",
+                    "of new features in .Net Core APIs, using CQRS, RabbitMQ ",
+                    "(which I helped to implement), SQL Server, and integration ",
+                    "with other systems. I worked in the Corporate Charges ",
+                    "squad/microservice, and I was the Security Champion for ",
+                    "the team, also participating in the Information Security ",
+                    "squad, working with the SI team to ensure best security ",
+                    "practices and address potential vulnerabilities. I had a ",
+                    "strong role in generating PDF payment slips and rewriting ",
+                    "CNAB (file for batch import of payment slips) generation ",
+                    "to support high-volume batch data processing."
+                ]
+            },
+            {
+                "nome": "Itaú",
+                "consultoria": "Certsys",
+                "inicio": "September 2019",
+                "fim": "March 2020",
+                "descricao": ".NET and Angular Developer",
+                "atividades": [
+                    "I was one of the developers responsible for migration ",
+                    "and enhancement (full code rewriting) of an internal ",
+                    "legacy MPA system (Asp.net MVC) to SPA with Angular ",
+                    "and .NET Core. The project was a script and routine ",
+                    "control system to be requested by non-privileged users. ",
+                    "The front-end was redesigned for a more user-friendly ",
+                    "and aesthetically pleasing interface, and the back-end ",
+                    "was restructured to meet the new front-end requirements ",
+                    "and migrate to .NET Core. This was a temporary contract ",
+                    "that ended when the allocated hours were completed."
+                ]
+            },
+            {
+                "nome": "Santander",
+                "consultoria": "Indra",
+                "inicio": "March 2019",
+                "fim": "September 2019",
+                "descricao": "Front-end Developer in Angular 7",
+                "atividades": [
+                    "I was responsible for developing the front-end of the ",
+                    "National Customer Registry, a crucial internal system ",
+                    "undergoing a complete rewrite to allow various types ",
+                    "of queries across the entire customer database. ",
+                    "I designed the frontend architecture from scratch, ",
+                    "including both the programming logic and layout, ",
+                    "and coded most of it until my departure. I did not ",
+                    "work on the backend in this project."
+                ]
+            },
+            {
+                "nome": "XMS Business Solutions (Chile)",
+                "inicio": "March 2018",
+                "fim": "November 2018",
+                "descricao": "Developer in .Net, .Net Core, AngularJS, and Angular",
+                "atividades": [
+                    "Consultancy and system development using ASP.NET ",
+                    "(Framework and Core), C#, SQL Server, AngularJS, ",
+                    "and Angular. As part of a software development ",
+                    "outsourcing company, I participated in the development ",
+                    "of several products from start to finish as a full-stack ",
+                    ".NET + Angular developer, also contributing to entity ",
+                    "modeling. Among these projects, highlights include ",
+                    "the post-sale control system for SalfaCorp, a major ",
+                    "engineering firm in Chile, an online course system, ",
+                    "and another complete evaluation system that allowed ",
+                    "for exam creation with various question types, ",
+                    "automatic correction for objective questions, ",
+                    "and teacher evaluation for subjective questions."
+                ]
+            },
+            {
+                "nome": "Confitec",
+                "inicio": "August 2013",
+                "fim": "October 2016",
+                "descricao": "Systems Analyst and .NET Developer",
+                "atividades": [
+                    "I initially worked on developing the company's main ",
+                    "proprietary product, Gepro, a system that generated ",
+                    "reports and flagged potential inconsistencies in the ",
+                    "databases of major insurers in Brazil. In this system, ",
+                    "which was built using Asp.net Webforms, Crystal Reports, ",
+                    "and MS SQL Server, I gained extensive experience in ",
+                    "creating and maintaining stored procedures, which served ",
+                    "as the source for many Crystal reports.",
+                    "<br>Later, I worked on the Portal do Corretor (Broker ",
+                    "Portal), an essential system for Brasil Brokers company, ",
+                    "used by brokers and internal administration, where ",
+                    "properties and clients were registered, including ",
+                    "potential customers with their interests and sales. ",
+                    "This was the project to which I dedicated the most ",
+                    "time in the company. ",
+                    "<br>Occasionally, I also assisted on the Brasil Brokers ",
+                    "website from another team.",
+                    "<br>Additionally, I contributed to the initial ",
+                    "development of Girus, a new system similar to Gepro, ",
+                    "for reinsurance.",
+                    "<br>My responsibilities included error analysis, ",
+                    "new module and feature development, requirements ",
+                    "gathering with clients, and documentation writing. ",
+                    "Main technologies used: Asp.net, C#, and SQL Server."
+                ]
+            },
+            {
+                "nome": "IMAGO IT Solutions",
+                "inicio": "January 2013",
+                "fim": "June 2013",
+                "descricao": "Web Development Intern using ASP.NET",
+                "atividades": [
+                    "Error analysis and resolution, assistance in developing ",
+                    "new systems, documentation writing, and manual testing. ",
+                    "Main technologies used: Asp.net, C#, and SQL Server. ",
+                    "The main client I worked for was Cultura Inglesa, where ",
+                    "I contributed to the development of a distance learning ",
+                    "portal (online courses) and maintenance of an Asp Classic system."
+                ]
+            }
+        ],
+        "textoExtra": [
+            "In addition to the experiences listed above, prior to these, ",
+            "I completed two other internships as a developer, worked ",
+            "twice in technical support, worked as a maintenance technician ",
+            "at Caixa Econômica (brazilian public bank), and my first job ",
+            "was as a call center agent for Tim, at the age of 18."
+        ]
+    },
+    "sobreMim": "assets/i18n/en/sobre-mim.html",
+    "apendiceCursos": "assets/i18n/en/apendice-cursos.html"
+}

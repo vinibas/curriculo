@@ -1,0 +1,41 @@
+@use "src/assets/styles/variables" as var;
+
+body {
+    background-color: gray;
+  }
+  
+  .container-principal {
+    background-color: whitesmoke;
+    // display: grid;
+    // width: 950px;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px;
+    box-sizing: border-box;
+    width: 95%;
+    padding: 40px 20px;
+    position: relative;
+  
+    @media (min-width: var.$sm) {
+        padding: 50px;
+    }
+    @media (min-width: var.$lg) {
+        padding: 60px 80px;
+    }
+    @media (min-width: var.$xl) {
+        width: 80%;
+    }
+  
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .list-unstyle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
