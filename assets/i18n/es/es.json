@@ -1,4 +1,8 @@
 {
+    "configuracoes": {
+        "temaClaro": "Tema claro",
+        "temaEscuro": "Tema oscuro"
+    },
     "principal": {
         "titulo": "Currículum Vitae",
         "secoes": {
@@ -21,7 +25,7 @@
         "maringa": "Maringá, Paraná, Brasil",
         "curriculoOnlineLabel": "Currículum Online",
         "curriculoOnlineLink": "https://vinibas.github.io/curriculo/?lang=es",
-        "curriculoOnlineTexto": "https://vinibas.github.io/curriculo?lang=es",
+        "curriculoOnlineTexto": "https://vinibas.github.io/curriculo",
         "observacao": "Los datos de contacto no se incluyen aquí para evitar spam. Por favor, contácteme a través de LinkedIn. ¡Gracias!"
     },
     "titulo": {

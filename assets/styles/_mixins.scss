@@ -1,0 +1,32 @@
+@use "sass:map";
+
+@mixin theme($theme) {
+    .container-principal {
+        background-color: map.get($theme, color-primary);
+        color: map.get($theme, text-color);
+        box-shadow: 5px 5px 20px map.get($theme, box-shadow-color);
+    }
+
+    .card {
+        background-color: map.get($theme, color-tertiary);
+        color: map.get($theme, color-primary);
+    }
+
+    .card-body {
+        background-color: map.get($theme, color-secondary);
+        color: map.get($theme, text-color);
+    }
+
+    #toggleThemeBtn {
+        background-color: map.get($theme, color-secondary);
+        color: map.get($theme, text-color);
+    }
+
+     
+    @at-root .dark-theme #linkPdfDownload {
+        background-color: cadetblue;
+        border: solid 3px #31363F;
+        border-radius: 3px;
+    }
+}
+

@@ -1,41 +1,70 @@
 @use "src/assets/styles/variables" as var;
+@use "src/assets/styles/mixins" as mixins;
+
+:root {
+  color-scheme: light dark;
+}
 
 body {
-    background-color: gray;
+  background-color: gray;
+}
+
+.container-configuracoes {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 95%;
+
+  @media (min-width: var.$xl) {
+      width: 80%;
   }
-  
-  .container-principal {
-    background-color: whitesmoke;
-    // display: grid;
-    // width: 950px;
-    min-height: 300px;
-    margin: auto;
-    margin-top: 10px;
-    box-shadow: 5px 5px 20px;
-    box-sizing: border-box;
-    width: 95%;
-    padding: 40px 20px;
-    position: relative;
-  
-    @media (min-width: var.$sm) {
-        padding: 50px;
-    }
-    @media (min-width: var.$lg) {
-        padding: 60px 80px;
-    }
-    @media (min-width: var.$xl) {
-        width: 80%;
-    }
-  
+
+  @media (min-width: var.$sm) {
+      // justify-content: space-between;
   }
-  
-  p {
-    text-align: justify;
+}
+
+.container-principal {
+  background-color: whitesmoke;
+  // display: grid;
+  // width: 950px;
+  min-height: 300px;
+  margin: 10px auto 15px;
+  box-shadow: 5px 5px 20px;
+  box-sizing: border-box;
+  width: 95%;
+  padding: 40px 20px;
+  position: relative;
+
+  @media (min-width: var.$sm) {
+      padding: 50px;
   }
-  
-  .list-unstyle {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  @media (min-width: var.$lg) {
+      padding: 60px 80px;
   }
+  @media (min-width: var.$xl) {
+      width: 80%;
+  }
+
+}
+
+p {
+  text-align: justify;
+}
+
+.list-unstyle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
   
+
+.light-theme {
+  @include mixins.theme(var.$light-theme);
+}
+
+.dark-theme {
+  @include mixins.theme(var.$dark-theme);
+}

@@ -1,4 +1,8 @@
 {
+    "configuracoes": {
+        "temaClaro": "Light Theme",
+        "temaEscuro": "Dark Theme"
+    },
     "principal": {
         "titulo": "Resume",
         "secoes": {

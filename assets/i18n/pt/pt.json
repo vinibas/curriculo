@@ -1,4 +1,8 @@
 {
+    "configuracoes": {
+        "temaClaro": "Tema claro",
+        "temaEscuro": "Tema escuro"
+    },
     "principal": {
         "titulo": "Currículo",
         "secoes": {
