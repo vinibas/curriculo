@@ -9,7 +9,7 @@
 
     .card {
         background-color: map.get($theme, color-tertiary);
-        color: map.get($theme, color-primary);
+        color: map.get($theme, title-color);
     }
 
     .card-body {
