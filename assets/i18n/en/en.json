@@ -78,6 +78,20 @@
         },
         "empresas": [
             {
+                "nome": "MeuCashCard",
+                "consultoria": "SquadPremium",
+                "inicio": "December 2024",
+                "descricao": "Tech Lead and Fullstack Developer (.NET and Angular)",
+                "atividades": [
+                    "Acting as a Tech Lead in a team of 7 developers, assisting the ",
+                    "team in task development, understanding the architecture, ",
+                    "maintaining best practices and company conventions, performing ",
+                    "Code Reviews (Pull Request analysis), leading ceremonies, ",
+                    "and improving the development workflow. Developing the company's ",
+                    "product using .NET and SQL Server, with a primary focus on API integrations."
+                ]
+            },
+            {
                 "nome": "THS Tecnologia",
                 "inicio": "June 2024",
                 "fim": "September 2024",

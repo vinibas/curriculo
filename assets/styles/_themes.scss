@@ -1,0 +1,36 @@
+
+$light-theme: (
+  color-primary: #f5f5f5,
+  color-secondary: #fff,
+  color-tertiary: #f8f9fa,
+  text-color: #212529,
+  title-color: #212529,
+  box-shadow-color: #212529,
+);
+
+$dark-theme: (
+  color-primary: #222831,
+  color-secondary: #31363F,
+  color-tertiary: cadetblue,
+  text-color: #EEEEEE,
+  title-color: #222831,
+  box-shadow-color: #31363F,
+);
+
+$dark2-theme: (
+  color-primary: #070F2B,
+  color-secondary: #1B1A55,
+  color-tertiary: #9290C3, // #535C91,
+  text-color: #abd2db,
+  title-color: #070F2B,
+  box-shadow-color: #1B1A55,
+);
+
+$dark3-theme: (
+  color-primary: #000B58,
+  color-secondary: #003161,
+  color-tertiary: #006A67,
+  text-color: #FFF4B7,
+  title-color: #000B58,
+  box-shadow-color: #003161,
+);

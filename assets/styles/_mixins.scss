@@ -23,9 +23,9 @@
     }
 
      
-    @at-root .dark-theme #linkPdfDownload {
-        background-color: cadetblue;
-        border: solid 3px #31363F;
+    &:not(.light-theme) #linkPdfDownload {
+        background-color: map.get($theme, color-tertiary);
+        border: solid 3px map.get($theme, color-secondary);
         border-radius: 3px;
     }
 }
