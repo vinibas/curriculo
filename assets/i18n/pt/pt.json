@@ -35,6 +35,7 @@
     "apresentacao": "assets/i18n/pt/apresentacao.html",
     "habilidadesTecnicas": {
         "tecnologias": "Tecnologias",
+        "com": "com",
         "artigoE": "e",
         "autenticacaoNet": "autenticação .Net",
         "bancoDeDados": "Banco de dados",
@@ -64,7 +65,7 @@
             "intermediario": "Intermediário – Fala, escrita.",
             "avancado": "Avançado – Compreensão, leitura."
         },
-        "ingles": "Inglês: Intermediário / técnico."
+        "ingles": "Inglês: Intermediário."
     },
     "experienciaProfissional": {
         "labels": {
@@ -87,9 +88,16 @@
                     "auxiliando o time no desenvolvimento das atividades, ",
                     "compreensão da arquitetura, manutenção de boas práticas e ",
                     "convenções da empresa, Code Review (análise de Pull Requests), ",
-                    "condução de cerimônias e melhorias no fluxo de desenvolvimento. ",
-                    "Desenvolvimento no produto da empresa, utilizando .Net e SQL Server, ",
-                    "e atuação principalmente com integrações entre API's."
+                    "condução de cerimônias e melhorias no fluxo de desenvolvimento ",
+                    "e de processos. Também gerenciei os impedimentos do time, ",
+                    "resolvendo diretamente com outras áreas da empresa ou com ",
+                    "empresas externas. Desenvolvimento no produto interno da empresa, ",
+                    "que tratava especialmente de integrações com diversos ",
+                    "sistemas externos, utilizando Rest, SOAP, e até mesmo ",
+                    "RPA (automação) com Selênium, e disponibilização destes ",
+                    "para consumo interno através de API's próprias. ",
+                    "Principais ferramentas: .Net, SQL Server, Azure DevOps e AWS. ",
+                    "Portal interno desenvolvido em Angular. Projeto de contrato temporário."
                 ]
             },
             {
@@ -98,10 +106,11 @@
                 "fim": "setembro de 2024",
                 "descricao": "Desenvolvedor fullstack .NET e Angular",
                 "atividades": [
-                    "Desenvolvimento de novas funcionalidades e ",
-                    "manutenção das já desenvolvidas no novo sistema de ",
-                    "intranet do CICC-SP, utilizando Asp.net, SQL Server ",
-                    "e Angular. Arquitetura focada em Clean Architecture e CQRS."
+                    "Criação do novo sistema de intranet do CICC-SP, ",
+                    "desenvolvendo novas funcionalidades e realizando ",
+                    "manutenção das já existentes. Arquitetura focada ",
+                    "em Clean Architecture e CQRS, utilizando Asp.net, ",
+                    "SQL Server e Angular."
                 ]
             },
             {
@@ -111,18 +120,27 @@
                 "descricao": "Desenvolvedor fullstack .NET e Angular",
                 "atividades": [
                     "Desenvolvimento de novas funcionalidades, ",
-                    "manutenção e correção de erros no SmartBus, sistema de ",
-                    "venda e gestão de passagens rodoviárias, utilizando ",
-                    "Asp.net (framework 4.6, e versões 7 e 8), SQL Server, ",
-                    "Angular e RabbitMQ. Fui responsável pela criação de dois ",
-                    "projetos do zero, tanto no design de arquitetura quanto ",
-                    "na codificação, visando o processamento de alto volume ",
-                    "de dados em lote, ambos utilizando Clean Architecture, ",
-                    "e um deles utilizando CQRS, com processamento assíncrono ",
-                    "e em filas utilizando o RabbitMQ, com comunicação entre ",
-                    "ambos usando tanto filas do RabbitMQ quanto Rest. ",
-                    "Os novos sistemas também representaram significativa ",
-                    "melhoria na implementação do multitenant."
+                    "manutenção e correção de erros no SmartBus, ",
+                    "sistema de venda e gestão de passagens rodoviárias, ",
+                    "utilizando Asp.net (framework 4.6, e versões 7 e 8), ",
+                    "SQL Server, Angular e RabbitMQ, em um sistema de ",
+                    "arquitetura BOLOVO. Também atuei como arquiteto, ",
+                    "onde fui responsável pela criação de dois projetos ",
+                    "do zero, tanto no design de arquitetura quanto na ",
+                    "codificação, visando o processamento assíncrono de ",
+                    "alto volume de dados em lote. Os projetos foram criados ",
+                    "para serem os novos modelos padrão de novos projetos ",
+                    "da empresa. Neles, trouxe novos padrões e tecnologias ",
+                    "para a empresa, implementando integração com ",
+                    "enfileiramento utilizando o RabbitMQ, logs no ",
+                    "ElasticSearch utilizando Serilog, padrão Result Pattern ",
+                    "para tratamento de erros, e novos padrões de arquitetura, ",
+                    "com ambos utilizando Clean Architecture, e, um deles, ",
+                    "CQRS. Os novos sistemas também representaram ",
+                    "significativa melhoria na implementação do multitenant ",
+                    "em relação à implementação antiga, com solução ",
+                    "redesenhada do zero, tornando dinâmica a conexão com ",
+                    "o Banco de Dados de acordo com o cliente selecionado."
                 ]
             },
             {
@@ -132,14 +150,14 @@
                 "fim": "setembro de 2022",
                 "descricao": "Desenvolvedor .NET backend",
                 "atividades": [
-                    "Desenvolvimento backend utilizando Asp.net 6, ",
-                    "SQL Server, MongoDB, RabbitMQ e NodeJS, dentre outras ",
-                    "tecnologias, em uma arquitetura de microsserviços com ",
-                    "CQRS. Atuação no projeto do Diário Oficial de SP. ",
-                    "Participei da criação de pequenos projetos, em ",
-                    "particular, fui responsável pela criação do zero de ",
-                    "um projeto de geração de documentos em PDF em NodeJS, ",
-                    "utilizando filas do RabbitMQ, em Clean Architecture."
+                    "Desenvolvimento backend utilizando Asp.net 6, SQL Server, ",
+                    "MongoDB, RabbitMQ e NodeJS, dentre outras tecnologias, ",
+                    "em uma arquitetura de microsserviços com CQRS. ",
+                    "Atuação no projeto de reescrita do zero do Diário Oficial de SP. ",
+                    "Participei da criação de alguns projetos .Net, e, ",
+                    "como destaque, fui responsável pela criação do zero de ",
+                    "um projeto em NodeJS, utilizando filas do RabbitMQ ",
+                    "e Clean Architecture."
                 ]
             },
             {
@@ -150,15 +168,18 @@
                 "descricao": "Desenvolvedor fullstack .NET e Angular",
                 "atividades": [
                     "Desenvolvimento de novas funcionalidades, ",
-                    "manutenção e correção de erros no Radar, sistema que ",
-                    "oferece diversas ferramentas de gestão para os ",
-                    "empresários associados. Utilizamos principalmente ",
-                    "Asp.net Core nas API's, Angular no front-end e MySql ",
-                    "no banco de dados, além de outras tecnologias no ",
-                    "entorno. Também ajudei na implementação de filas ",
-                    "usando o RabbitMQ, e fui responsável pelo ",
-                    "desenvolvimento de diversas épicas importantes ",
-                    "como fullstack."
+                    "manutenção e correção de erros no Radar, ",
+                    "principal sistema da empresa, e que oferece ",
+                    "diversas ferramentas de gestão para os empresários associados. ",
+                    "O Radar possuía desde cadastro de associados e produtos, ",
+                    "gerenciamento de campanhas de Marketing, ",
+                    "até mesmo um pequeno e-commerce embutido. ",
+                    "Utilizamos principalmente Asp.net Core nas API’s, ",
+                    "Angular nos front-ends e MySql no banco de dados, ",
+                    "além de outras tecnologias no entorno. ",
+                    "Também ajudei na implementação de filas usando o RabbitMQ, ",
+                    "e fui responsável pelo desenvolvimento de diversas ",
+                    "épicas inteiras como fullstack, de ponta a ponta."
                 ]
             },
             {
@@ -168,17 +189,18 @@
                 "fim": "junho de 2021",
                 "descricao": "Desenvolvedor .NET",
                 "atividades": [
-                    "Manutenção, análise e correção de erros, implementação ",
-                    "de novas funcionalidades em API’s .Net Core, com CQRS, ",
-                    "enfileiramento com RabbitMQ (o qual ajudei a implementar), ",
-                    "SQL Server e integração com outros sistemas. ",
-                    "Trabalhei no squad/microsserviço de Cobranças PJ, ",
-                    "e fui o Security Champion do time, participando ",
-                    "também do squad de Segurança da Informação, atuando ",
-                    "junto ao time de SI para melhores práticas de segurança ",
+                    "Manutenção, análise e correção de erros, ",
+                    "implementação de novas funcionalidades em API’s .Net Core, ",
+                    "com CQRS, SQL Server e integração com outros sistemas. ",
+                    "Também ajudei a implementar o enfileiramento de ",
+                    "processos com RabbitMQ. Trabalhei no squad/microsserviço ",
+                    "de Cobranças PJ, e fui o Security Champion do time, ",
+                    "papel essencial na integração com a squad de Segurança ",
+                    "da Informação, da qual eu também fazia parte, ",
+                    "ajudando o time a promover melhores práticas de segurança ",
                     "e correções de possíveis vulnerabilidades. ",
-                    "Tive uma forte atuação na geração de boletos em PDF e ",
-                    "na reescrita da geração de CNAB para suportar ",
+                    "Tive uma forte atuação na geração de boletos em PDF e na ",
+                    "reescrita completa da geração de CNAB para suportar ",
                     "processamento de alto volume de dados em lote."
                 ]
             },
@@ -189,18 +211,17 @@
                 "fim": "março de 2020",
                 "descricao": "Desenvolvedor .NET e Angular",
                 "atividades": [
-                    "Fui um dos responsáveis por realizar parte do ",
-                    "tombamento (reescrita de código) de um sistema ",
-                    "legado interno de MPA (Asp.net MVC antigo) para ",
-                    "SPA com Angular e .NET Core. Tal projeto consistia ",
-                    "em um sistema de controle de scripts e rotinas a ",
-                    "serem solicitadas a execução por usuários sem privilégio. ",
-                    "O front-end foi redesenhado para uma interface ",
-                    "mais bonita e usual, e o back-end foi refatorado ",
-                    "para atender ao novo front-end e ser substituído ",
-                    "pela versão .Net Core. Tratou-se de um contrato ",
-                    "temporário, encerrado quando terminaram as ",
-                    "horas disponíveis para a alocação."
+                    "Fui um dos responsáveis por realizar parte do tombamento ",
+                    "(reescrita total de código) de um sistema legado interno de MPA ",
+                    "(Asp.net MVC antigo) para SPA, com Angular e .NET Core. ",
+                    "Tal projeto consistia em um sistema de controle e gerenciamento ",
+                    "de scripts e rotinas solicitadas por usuários sem privilégio ",
+                    "de execução. O front-end foi redesenhado para uma interface ",
+                    "mais bonita e usual, e o back-end foi refatorado para atender ",
+                    "ao novo front-end e ser substituído pela versão .Net Core. ",
+                    "Foram feitos testes de integração utilizando o Selênium. ",
+                    "Tratou-se de um contrato temporário, encerrado quando ",
+                    "terminaram as horas disponíveis para a alocação."
                 ]
             },
             {
@@ -222,6 +243,22 @@
                 ]
             },
             {
+                "nome": "Bom Pra Crédito",
+                "inicio": "dezembro de 2018",
+                "fim": "fevereiro de 2019",
+                "descricao": "Desenvolvedor em .Net, .Net Core, AngularJS, Angular e NodeJS.",
+                "atividades": [
+                    "Desenvolvimento de novas funcionalidades e correções ",
+                    "de defeitos nos sistemas da empresa. O sistema principal ",
+                    "se trata de um comparador de ofertas de empréstimo pessoal, ",
+                    "escrito em .Net, Angular e AngularJS. Migração em andamento ",
+                    "para .Net Core. Outros projetos internos também utilizavam ",
+                    "outras tecnologias, como NodeJS e Python. Também atuei ",
+                    "criando queries para o MongoDB e cuidando da execução ",
+                    "de alguns RPA's construídos com Selênium."
+                ]
+            },
+            {
                 "nome": "XMS Business Solutions (Chile)",
                 "inicio": "março de 2018",
                 "fim": "novembro de 2018",
@@ -238,7 +275,8 @@
                     "de cursos online, e outro completo de avaliações, onde ",
                     "podia-se cadastrar provas, com diversos tipos de questões, ",
                     "execução pelo aluno, correção automática das objetivas e ",
-                    "correção pelo professor das discursivas."
+                    "correção pelo professor das discursivas. ",
+                    "Alocação presencial em Santiago, Chile."
                 ]
             },
             {
@@ -289,7 +327,7 @@
         "textoExtra": [
             "Além das experiências citadas acima, antes delas, estagiei outras ",
             "duas vezes como desenvolvedor, duas vezes com suporte técnico, ",
-            "fui técnico de manutenção na Caixa Econômica, e meu primeiro ",
+            "fui técnico de manutenção de computadores na Caixa Econômica, e meu primeiro ",
             "emprego foi como atendente de telemarketing da Tim, aos 18 anos."
         ]
     },
