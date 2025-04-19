@@ -49,8 +49,10 @@ body {
 
 }
 
-p {
-  text-align: justify;
+@media (min-width: var.$sm) {
+  p {
+    text-align: justify;
+  }
 }
 
 .list-unstyle {

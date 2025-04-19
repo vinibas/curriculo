@@ -30,6 +30,7 @@
     },
     "titulo": {
         "titulo": "Desenvolvedor Web Full-stack",
+        "titulo2": "Arquiteto de Software e Tech Lead",
         "subtitulo": ".NET API, MVC e Angular"
     },
     "apresentacao": "assets/i18n/pt/apresentacao.html",
