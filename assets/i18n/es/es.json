@@ -1,7 +1,11 @@
 {
     "configuracoes": {
         "temaClaro": "Tema claro",
-        "temaEscuro": "Tema oscuro"
+        "temaEscuro": "Tema oscuro",
+        "outrosTemas": [
+            { "id": "dark2-theme", "texto": "Tema oscuro 2" },
+            { "id": "dark3-theme", "texto": "Tema oscuro 3" }
+        ]
     },
     "principal": {
         "titulo": "Currículum Vitae",

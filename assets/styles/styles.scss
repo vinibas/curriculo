@@ -77,3 +77,12 @@ body {
 .dark3-theme {
   @include mixins.theme(themes.$dark3-theme);
 }
+
+.btn-no-style {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}

@@ -22,6 +22,10 @@
         color: map.get($theme, text-color);
     }
 
+    .menuOutrosTemas {
+        background-color: map.get($theme, color-secondary);
+        color: map.get($theme, text-color);
+    }
      
     &:not(.light-theme) #linkPdfDownload {
         background-color: map.get($theme, color-tertiary);
