@@ -75,7 +75,7 @@
     "experienciaProfissional": {
         "labels": {
             "empresa": "Company",
-            "consultoria": "Consultancy",
+            "consultoria": "Consulting Firm",
             "inicio": "Start Date",
             "fim": "End Date",
             "atual": "current",
@@ -288,30 +288,29 @@
                 "fim": "October 2016",
                 "descricao": "Systems Analyst and .NET Developer",
                 "atividades": [
-                    "I initially worked on developing the company's main ",
-                    "proprietary product, Gepro, a system that generated ",
-                    "reports and flagged potential inconsistencies in the ",
-                    "databases of major insurers in Brazil. In this system, ",
-                    "which was built using Asp.net Webforms, Crystal Reports, ",
-                    "and MS SQL Server, I gained extensive experience in ",
-                    "creating and maintaining stored procedures, which served ",
-                    "as the source for many Crystal reports.",
-                    "<br>Later, I worked on the Portal do Corretor (Broker ",
-                    "Portal), an essential system for Brasil Brokers company, ",
-                    "used by brokers and internal administration, where ",
-                    "properties and clients were registered, including ",
-                    "potential customers with their interests and sales. ",
-                    "This was the project to which I dedicated the most ",
-                    "time in the company. ",
-                    "<br>Occasionally, I also assisted on the Brasil Brokers ",
-                    "website from another team.",
-                    "<br>Additionally, I contributed to the initial ",
-                    "development of Girus, a new system similar to Gepro, ",
-                    "for reinsurance.",
-                    "<br>My responsibilities included error analysis, ",
-                    "new module and feature development, requirements ",
-                    "gathering with clients, and documentation writing. ",
-                    "Main technologies used: Asp.net, C#, and SQL Server."
+                    "I worked on developing the company’s main proprietary product, ",
+                    "Gepro, a system that generated reports and flagged potential ",
+                    "inconsistencies in the databases of major insurers in Brazil, ",
+                    "and Portal do Corretor (Broker Portal), an internal system for ",
+                    "Brasil Brokers company. In this systems, which were built using ",
+                    "Asp.net Webforms, Crystal Reports, and MS SQL Server, I gained ",
+                    "extensive experience in creating and maintaining stored procedures, ",
+                    "which served as the source for many Crystal reports. ",
+                    "Main technologies used: Asp.net, C#, and SQL Server.",
+                    
+                    "<br>Later, I worked on the Portal do Corretor (Broker Portal), ",
+                    "an internal system for Brasil Brokers company, used by brokers ",
+                    "and internal administration, where properties and clients were registered, ",
+                    "including potential customers with their interests and sales. ",
+                    "This was the project to which I dedicated the most time in the company. ",
+                    
+                    "<br>Occasionally, I also assisted on the Brasil Brokers website from another team.",
+                    "<br>Additionally, I contributed to the initial development ",
+                    "of Girus, a new system similar to Gepro, for reinsurance.",
+
+                    "<br>My responsibilities included error analysis, new module and ",
+                    "feature development, requirements gathering with clients, ",
+                    "and documentation writing. Main technologies used: Asp.net, C#, and SQL Server."
                 ]
             },
             {
