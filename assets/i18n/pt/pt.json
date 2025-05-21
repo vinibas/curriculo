@@ -30,7 +30,9 @@
         "curriculoOnlineLabel": "Currículo Online",
         "curriculoOnlineLink": "https://vinibas.github.io/curriculo/",
         "curriculoOnlineTexto": "https://vinibas.github.io/curriculo",
-        "observacao": "Os contatos aqui estavam gerando spam. Por isso, para me contactar, utilize o LinkedIn. Obrigado!"
+        "observacao": "Os contatos aqui estavam gerando spam. Por isso, para me contactar, utilize o LinkedIn. Obrigado!",
+        "telefone": "Telefone",
+        "whatsappTexto": "Olá!%20Vi%20seu%20currículo%20e%20tenho%20uma%20vaga%20para%20te%20apresentar."
     },
     "titulo": {
         "titulo": "Desenvolvedor Web Full-stack",
@@ -87,6 +89,7 @@
                 "nome": "MeuCashCard",
                 "consultoria": "SquadPremium",
                 "inicio": "dezembro de 2024",
+                "fim": "abril de 2025",
                 "descricao": "Tech Lead e desenvolvedor fullstack .NET e Angular",
                 "atividades": [
                     "Atuação como tech lead em um time de 7 desenvolvedores, ",
@@ -101,6 +104,7 @@
                     "sistemas externos, utilizando Rest, SOAP, e até mesmo ",
                     "RPA (automação) com Selênium, e disponibilização destes ",
                     "para consumo interno através de API's próprias. ",
+                    "Também foi implementado enfileiramento, utilizando o Hangfire. ",
                     "Principais ferramentas: .Net, SQL Server, Azure DevOps e AWS. ",
                     "Portal interno desenvolvido em Angular. Projeto de contrato temporário."
                 ]
