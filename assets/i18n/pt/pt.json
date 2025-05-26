@@ -131,7 +131,7 @@
                     "Desenvolvimento de novas funcionalidades, ",
                     "manutenção e correção de erros no SmartBus, ",
                     "sistema de venda e gestão de passagens rodoviárias, ",
-                    "utilizando Asp.net (framework 4.6, e versões 7 e 8), ",
+                    "utilizando Asp.net (framework 4.6, e versões 7 e 8), React, ",
                     "SQL Server, Angular e RabbitMQ, em um sistema de ",
                     "arquitetura BOLOVO. Também atuei como arquiteto, ",
                     "onde fui responsável pela criação de dois projetos ",
@@ -159,7 +159,7 @@
                 "fim": "setembro de 2022",
                 "descricao": "Desenvolvedor .NET backend",
                 "atividades": [
-                    "Desenvolvimento backend utilizando Asp.net 6, SQL Server, ",
+                    "Desenvolvimento backend utilizando Asp.net 6, React, SQL Server, ",
                     "MongoDB, RabbitMQ e NodeJS, dentre outras tecnologias, ",
                     "em uma arquitetura de microsserviços com CQRS. ",
                     "Atuação no projeto de reescrita do zero do Diário Oficial de SP. ",
