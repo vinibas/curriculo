@@ -157,9 +157,9 @@
                 "consultoria": "G&P",
                 "inicio": "junho de 2022",
                 "fim": "setembro de 2022",
-                "descricao": "Desenvolvedor .NET backend",
+                "descricao": "Desenvolvedor .NET",
                 "atividades": [
-                    "Desenvolvimento backend utilizando Asp.net 6, React, SQL Server, ",
+                    "Desenvolvimento utilizando Asp.net 6, React, SQL Server, ",
                     "MongoDB, RabbitMQ e NodeJS, dentre outras tecnologias, ",
                     "em uma arquitetura de microsserviços com CQRS. ",
                     "Atuação no projeto de reescrita do zero do Diário Oficial de SP. ",
