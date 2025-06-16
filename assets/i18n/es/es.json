@@ -14,6 +14,7 @@
             "habilidadesTecnicas": "Habilidades Técnicas",
             "formacaoAcademica": "Formación Académica",
             "outrosCursos": "Cursos Complementarios",
+            "portfolio": "Portafolio",
             "livros": "Libros",
             "idiomas": "Idiomas",
             "experienciaProfissional": "Experiencia Profesional",
@@ -62,6 +63,13 @@
         "universidadeVeigaDeAlmeida": "Universidade Veiga de Almeida",
         "bachareladoEmCDC": "Bachiller en Ciencias de la Computación",
         "periodo": "Inicio: 2009 – Finalización: 2014"
+    },
+    "portfolio": {
+        "descricao": "Tengo algunos proyectos en GitHub, ya sea bibliotecas que desarrollé o pruebas que realicé en algunos procesos de selección. A continuación, los enlaces:",
+        "ResultPattern": "Biblioteca .Net que aplica el patrón Result Pattern al framework .Net",
+        "CashFlow": "Prueba que simula lanzamientos y reportes de flujo de caja, utilizando .Net, con pruebas unitarias (XUnit), de comportamiento (BDD) y de carga (K6), contenerizada en Docker. Se utilizó PostgreSQL como base de datos, con logs en SEQ",
+        "BestRoute": "Prueba para el cálculo de la mejor ruta. Dadas N rutas, la API .Net calcula el camino más económico entre dos nodos. Problema clásico de grafos, resuelto utilizando el algoritmo de Dijkstra, con pruebas unitarias en XUnit",
+        "Test-C": "Una prueba de una API .Net sencilla para búsqueda de productos, con algunas reglas de negocio simuladas y base de datos en memoria"
     },
     "outrosCursos": "assets/i18n/es/outros-cursos.html",
     "livros": "assets/i18n/es/livros.html",
@@ -212,8 +220,8 @@
                     "ayudando al equipo a promover mejores prácticas de ",
                     "seguridad y corrección de posibles vulnerabilidades. ",
                     "Tuve una participación destacada en la generación de ",
-                    "boletos PDF y en la reescritura completa de la ",
-                    "generación de CNAB para soportar procesamiento de ",
+                    "boletos PDF y en la reescritura completa del ",
+                    "módulo de generación de CNAB para soportar procesamiento de ",
                     "grandes volúmenes de datos en lote."
                 ]
             },

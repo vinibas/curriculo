@@ -14,6 +14,7 @@
             "habilidadesTecnicas": "Technical Skills",
             "formacaoAcademica": "Academic Background",
             "outrosCursos": "Additional Courses",
+            "portfolio": "Portfolio",
             "livros": "Books",
             "idiomas": "Languages",
             "experienciaProfissional": "Professional Experience",
@@ -62,6 +63,13 @@
         "universidadeVeigaDeAlmeida": "Universidade Veiga de Almeida (Veiga de Almeida University)",
         "bachareladoEmCDC": "Bachelor's in Computer Science",
         "periodo": "Start: 2009 – Completion: 2014"
+    },
+    "portfolio": {
+        "descricao": "I have several projects on GitHub, including libraries I developed and tests I performed during selection processes. Here are the links:",
+        "ResultPattern": "A .Net library that implements the Result Pattern within the .Net",
+        "CashFlow": "A test that simulates cash flow entries and reports using .Net, with unit testing (XUnit), behavior-driven testing (BDD), and load testing (K6), containerized in Docker. PostgreSQL was used as the database, with logs sent to SEQ",
+        "BestRoute": "A test for calculating the best route. Given N routes, the .Net API calculates the cheapest path from one node to another. A classic Graph problem, solved using Dijkstra's algorithm, with unit tests written in XUnit",
+        "Test-C": "A test for a simple .Net API to search for products, with some simulated business rules and an in-memory database"
     },
     "outrosCursos": "assets/i18n/en/outros-cursos.html",
     "livros": "assets/i18n/en/livros.html",
@@ -206,7 +214,7 @@
                     "of which I was also a part, helping the team to promote ",
                     "better security practices and correct possible vulnerabilities. ",
                     "Had a strong role in PDF slip generation and in the ",
-                    "complete rewriting of CNAB generation to support ",
+                    "complete rewriting of CNAB generation module to support ",
                     "igh-volume batch data processing."
                 ]
             },
