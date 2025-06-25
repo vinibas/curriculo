@@ -67,7 +67,7 @@
     "portfolio": {
         "descricao": "Tenho alguns projetos no GitHub, seja de bibliotecas que desenvolvi, ou de testes que realizei em alguns processos seletivos. Segue os links:",
         "ResultPattern": "Biblioteca .Net que aplica o padrão Result Pattern ao framework .Net",
-        "ngxShowFormErrors": "Biblioteca angular para automatizar la exhibición de mensajes de error del formulario",
+        "ngxShowFormErrors": "Biblioteca Angular para automatizar a exibição de mensagens de erro de formulários",
         "CashFlow": "Teste que simula lançamentos e relatórios de fluxo de caixa, utilizando .Net, utilizando testes unitários (XUnit), comportamentais (BDD) e de carga (K6), conteinerizado em Docker. Foi utilizado o PostgreSQL como banco de dados, com logs no SEQ",
         "BestRoute": "Teste para cálculo de melhor rota. Dado N rotas, a API .Net calcula qual é o caminho mais barato de um nó a outro. Problema clássico de Grafos, resolvido utilizando o algoritmo de Dijkstra, com testes unitários em XUnit",
         "Test-C": "Um teste de uma API .Net simples para busca de produtos, com algumas regras de negócio simuladas, e banco em memória"
