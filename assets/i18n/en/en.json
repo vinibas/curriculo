@@ -67,6 +67,7 @@
     "portfolio": {
         "descricao": "I have several projects on GitHub, including libraries I developed and tests I performed during selection processes. Here are the links:",
         "ResultPattern": "A .Net library that implements the Result Pattern within the .Net",
+        "ngxShowFormErrors": "Angular library to automate displaying form error messages",
         "CashFlow": "A test that simulates cash flow entries and reports using .Net, with unit testing (XUnit), behavior-driven testing (BDD), and load testing (K6), containerized in Docker. PostgreSQL was used as the database, with logs sent to SEQ",
         "BestRoute": "A test for calculating the best route. Given N routes, the .Net API calculates the cheapest path from one node to another. A classic Graph problem, solved using Dijkstra's algorithm, with unit tests written in XUnit",
         "Test-C": "A test for a simple .Net API to search for products, with some simulated business rules and an in-memory database"
