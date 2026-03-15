@@ -64,8 +64,9 @@
         "periodo": "Start: 2009 – Completion: 2014"
     },
     "portfolio": {
-        "descricao": "I have several projects on GitHub, including libraries I developed and tests I performed during selection processes. Here are the links:",
+        "descricao": "I have several projects on GitHub, including libraries I developed, published on <a href=\"https://www.nuget.org/profiles/vinibas\" target=\"_blank\" rel=\"noreferrer\">nuget.org</a> and <a href=\"https://www.npmjs.com/~vinibas\" target=\"_blank\" rel=\"noreferrer\">npmjs.org</a>, and tests I performed during selection processes. Here are the links:",
         "ResultPattern": "A .Net library that implements the Result Pattern within the .Net",
+        "FluentBlueprintBuilder": "A .NET library for fluent object creation based on scenario presets (blueprints) and predefined values",
         "ngxShowFormErrors": "Angular library to automate displaying form error messages",
         "CashFlow": "A test that simulates cash flow entries and reports using .Net, with unit testing (XUnit), behavior-driven testing (BDD), and load testing (K6), containerized in Docker. PostgreSQL was used as the database, with logs sent to SEQ",
         "BestRoute": "A test for calculating the best route. Given N routes, the .Net API calculates the cheapest path from one node to another. A classic Graph problem, solved using Dijkstra's algorithm, with unit tests written in XUnit",
@@ -93,6 +94,15 @@
             "atividades": "Activities"
         },
         "empresas": [
+            {
+                "nome": "Olik",
+                "inicio": "October 2025",
+                "descricao": ".NET Developer",
+                "atividades": [
+                    "Acting as a .NET developer in the creation and maintenance of ",
+                    "company software, focusing primarily on the insurance sector."
+                ]
+            },
             {
                 "nome": "MeuCashCard",
                 "consultoria": "SquadPremium",

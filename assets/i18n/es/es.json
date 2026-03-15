@@ -64,8 +64,9 @@
         "periodo": "Inicio: 2009 – Finalización: 2014"
     },
     "portfolio": {
-        "descricao": "Tengo algunos proyectos en GitHub, ya sea bibliotecas que desarrollé o pruebas que realicé en algunos procesos de selección. A continuación, los enlaces:",
+        "descricao": "Tengo algunos proyectos en GitHub, ya sea bibliotecas que he desarrollado, publicadas en <a href=\"https://www.nuget.org/profiles/vinibas\" target=\"_blank\" rel=\"noreferrer\">nuget.org<a> y <a href=\"https://www.npmjs.com/~vinibas\" target=\"_blank\" rel=\"noreferrer\">npmjs.org</a>, o pruebas que realicé en algunos procesos de selección. A continuación, los enlaces:",
         "ResultPattern": "Biblioteca .Net que aplica el patrón Result Pattern al framework .Net",
+        "FluentBlueprintBuilder": "Biblioteca .NET para la creación fluente de objetos conforme a preajustes de escenarios y valores predefinidos",
         "ngxShowFormErrors": "Biblioteca Angular para automatizar la exhibición de mensajes de error del formulario",
         "CashFlow": "Prueba que simula lanzamientos y reportes de flujo de caja, utilizando .Net, con pruebas unitarias (XUnit), de comportamiento (BDD) y de carga (K6), contenerizada en Docker. Se utilizó PostgreSQL como base de datos, con logs en SEQ",
         "BestRoute": "Prueba para el cálculo de la mejor ruta. Dadas N rutas, la API .Net calcula el camino más económico entre dos nodos. Problema clásico de grafos, resuelto utilizando el algoritmo de Dijkstra, con pruebas unitarias en XUnit",
@@ -93,6 +94,15 @@
             "atividades": "Actividades"
         },
         "empresas": [
+            {
+                "nome": "Olik",
+                "inicio": "octubre de 2025",
+                "descricao": "Desarrollador .NET",
+                "atividades": [
+                    "Desempeño como desarrollador .NET en la creación y mantenimiento ",
+                    "de softwares de la empresa, con enfoque principal en el sector de seguros."
+                ]
+            },
             {
                 "nome": "MeuCashCard",
                 "consultoria": "SquadPremium",
