@@ -24,13 +24,8 @@
     },
     "dadosPessoais": {
         "nome": "Nombre",
-        "idade": "Edad",
-        "anos": "años",
         "localidade": "Ubicación",
         "maringa": "Maringá, Paraná, Brasil",
-        "curriculoOnlineLabel": "Currículum Online",
-        "curriculoOnlineLink": "https://vinibas.github.io/curriculo/?lang=es",
-        "curriculoOnlineTexto": "https://vinibas.github.io/curriculo",
         "observacao": "Los datos de contacto no se incluyen aquí para evitar spam. Por favor, contácteme a través de LinkedIn. ¡Gracias!",
         "telefone": "Teléfono",
         "whatsappTexto": " "
