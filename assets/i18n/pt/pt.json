@@ -26,12 +26,16 @@
         "nome": "Nome",
         "localidade": "Localidade",
         "maringa": "Maringá - Paraná",
-        "observacao": "Os contatos aqui estavam gerando spam. Por isso, para me contactar, utilize o LinkedIn. Obrigado!",
+        "observacao": "Para entrar em contato, por favor, utilize o LinkedIn. Obrigado!",
         "telefone": "Telefone",
         "whatsappTexto": "Olá!%20Vi%20seu%20currículo%20e%20tenho%20uma%20vaga%20para%20te%20apresentar."
     },
     "titulo": {
-        "titulo": "Tech Lead | Arquiteto de Software",
+        "titulo": "Desenvolvedor | Tech Lead | Arquiteto de Software",
+        "subtitulo": ".NET · Angular · Vue/Nuxt"
+    },
+    "titulo_alternativo": {
+        "titulo": "Desenvolvedor | Tech Lead | Arquiteto de Software",
         "titulo2": ".NET · Angular · Vue/Nuxt",
         "subtitulo": "Disponível apenas para trabalho remoto · CLT ou PJ"
     },
@@ -49,7 +53,7 @@
         "seguranca": "Segurança e autenticação",
         "devopsCloud": "DevOps e Cloud",
         "ia": "IA no desenvolvimento",
-        "comModelos": "com modelos",
+        "comModelos": "com modelos Mistral/Codestral",
         "gestaoColaboracao": "Gestão e colaboração",
         "listaLideranca": "code review, mentoria, refinamento técnico, escrita de User Stories, apoio ao PO na estruturação do backlog, Security Champion",
         "procedures": "Procedures",
@@ -60,7 +64,8 @@
         "deProjeto": "De projeto",
         "deArquitetura": "De arquitetura",
         "deQualidade": "De qualidade de código",
-        "deMetodologiaAgil": "Metodologia ágil e liderança"
+        "deMetodologiaAgil": "Metodologia ágil e liderança",
+        "bolovoDescricao": "legado UI+BLL+DAL"
     },
     "formacaoAcademica": {
         "universidadeVeigaDeAlmeida": "Universidade Veiga de Almeida",
@@ -123,7 +128,7 @@
                     "liderar uma squad de mesmo tamanho na criação do zero de um produto ",
                     "especializado no setor de seguros, para a seguradora Fairfax, ",
                     "utilizando .NET e Vue/Nuxt. Neste projeto, projetei e desenvolvi a ",
-                    "arquitetura base, além de orientar o time na direção da solução ao decorrer das sprints. ",
+                    "arquitetura base, em Modular Monolith com BFF, além de orientar o time na direção da solução no decorrer das sprints. ",
                     "Também ensinei o time a trabalhar com Scrum e agilidade, estabeleci as ",
                     "cerimônias Scrum e os fluxos de trabalho no Jira, e ajudei o Product ",
                     "Owner na revisão e estruturação das histórias no Backlog de Produto ",

@@ -3,8 +3,14 @@
         "temaClaro": "Tema claro",
         "temaEscuro": "Tema oscuro",
         "outrosTemas": [
-            { "id": "dark2-theme", "texto": "Tema oscuro 2" },
-            { "id": "dark3-theme", "texto": "Tema oscuro 3" }
+            {
+                "id": "dark2-theme",
+                "texto": "Tema oscuro 2"
+            },
+            {
+                "id": "dark3-theme",
+                "texto": "Tema oscuro 3"
+            }
         ]
     },
     "principal": {
@@ -18,7 +24,7 @@
             "livros": "Libros",
             "idiomas": "Idiomas",
             "experienciaProfissional": "Experiencia Profesional",
-            "sobreMim": "Sobre mí (personal)",
+            "sobreMim": "Quién soy yo",
             "apendice": "Apéndice – Lista de los cursos más importantes"
         }
     },
@@ -26,14 +32,13 @@
         "nome": "Nombre",
         "localidade": "Ubicación",
         "maringa": "Maringá, Paraná, Brasil",
-        "observacao": "Los datos de contacto no se incluyen aquí para evitar spam. Por favor, contácteme a través de LinkedIn. ¡Gracias!",
+        "observacao": "Para ponerse en contacto, por favor, utilice LinkedIn. ¡Gracias!",
         "telefone": "Teléfono",
         "whatsappTexto": " "
     },
     "titulo": {
-        "titulo": "Desarrollador Web Full-stack",
-        "titulo2": "Arquitecto de Software y Tech Lead",
-        "subtitulo": ".NET API, MVC y Angular"
+        "titulo": "Ingeniero de Software | Tech Lead | Arquitecto de Software",
+        "subtitulo": ".NET · Angular · Vue/Nuxt"
     },
     "apresentacao": "assets/i18n/es/apresentacao.html",
     "habilidadesTecnicas": {
@@ -42,7 +47,16 @@
         "artigoE": "y",
         "bancoDeDados": "Base de datos",
         "relacional": "Relacional",
-        "merDer": "MER, DER",
+        "merDer": "modelado (MER/DER)",
+        "indicesNormalizacao": "índices, normalización/desnormalización",
+        "aplicacoesCli": "aplicaciones CLI",
+        "mensageria": "Mensajería, agendamiento y procesamiento en background",
+        "seguranca": "Seguridad y autenticación",
+        "devopsCloud": "DevOps y Cloud",
+        "ia": "IA en el desarrollo",
+        "comModelos": "con modelos Mistral/Codestral",
+        "gestaoColaboracao": "Gestión y colaboración",
+        "listaLideranca": "code review, mentoría, refinamiento técnico, escritura de User Stories, apoyo al PO en la estructuración del backlog, Security Champion",
         "procedures": "Procedures",
         "testes": "Pruebas",
         "diagramas": "diagramas",
@@ -51,21 +65,24 @@
         "deProjeto": "De diseño",
         "deArquitetura": "De arquitectura",
         "deQualidade": "De calidad de código",
-        "deMetodologiaAgil": "Metodología Ágil"
+        "deMetodologiaAgil": "Metodología ágil y liderazgo",
+        "bolovoDescricao": "arquitectura en capas tradicional UI+BLL+DAL"
     },
     "formacaoAcademica": {
         "universidadeVeigaDeAlmeida": "Universidade Veiga de Almeida",
-        "bachareladoEmCDC": "Bachiller en Ciencias de la Computación",
+        "bachareladoEmCDC": "Bachillerato en Ciencias de la Computación",
         "periodo": "Inicio: 2009 – Finalización: 2014"
     },
     "portfolio": {
-        "descricao": "Tengo algunos proyectos en GitHub, ya sea bibliotecas que he desarrollado, publicadas en <a href=\"https://www.nuget.org/profiles/vinibas\" target=\"_blank\" rel=\"noreferrer\">nuget.org<a> y <a href=\"https://www.npmjs.com/~vinibas\" target=\"_blank\" rel=\"noreferrer\">npmjs.org</a>, o pruebas que realicé en algunos procesos de selección. A continuación, los enlaces:",
-        "ResultPattern": "Biblioteca .Net que aplica el patrón Result Pattern al framework .Net",
-        "FluentBlueprintBuilder": "Biblioteca .NET para la creación fluente de objetos conforme a preajustes de escenarios y valores predefinidos",
-        "ngxShowFormErrors": "Biblioteca Angular para automatizar la exhibición de mensajes de error del formulario",
-        "CashFlow": "Prueba que simula lanzamientos y reportes de flujo de caja, utilizando .Net, con pruebas unitarias (XUnit), de comportamiento (BDD) y de carga (K6), contenerizada en Docker. Se utilizó PostgreSQL como base de datos, con logs en SEQ",
-        "BestRoute": "Prueba para el cálculo de la mejor ruta. Dadas N rutas, la API .Net calcula el camino más económico entre dos nodos. Problema clásico de grafos, resuelto utilizando el algoritmo de Dijkstra, con pruebas unitarias en XUnit",
-        "Test-C": "Una prueba de una API .Net sencilla para búsqueda de productos, con algunas reglas de negocio simuladas y base de datos en memoria"
+        "bibliotecas": "Bibliotecas publicadas",
+        "desafios": "Desafíos técnicos",
+        "descricao": "Mantengo en GitHub bibliotecas open source que desarrollé, publicadas en <a href=\"https://www.nuget.org/profiles/vinibas\" target=\"_blank\" rel=\"noreferrer\">nuget.org</a> y <a href=\"https://www.npmjs.com/~vinibas\" target=\"_blank\" rel=\"noreferrer\">npmjs.org</a>, además de desafíos técnicos que realicé en procesos de selección. A continuación, los enlaces:",
+        "ResultPattern": "Biblioteca .NET para el manejo de errores con el patrón Result Pattern, retornando éxito o fallo de forma explícita, con status mapeados automáticamente, sin depender de excepciones para el control de flujo. Patrón que también implementé profesionalmente en proyectos en Smart Travel y en Olik",
+        "FluentBlueprintBuilder": "Biblioteca .NET para la creación fluente de objetos a partir de escenarios y valores predefinidos, útil especialmente en la construcción de datos para pruebas automatizadas. También la utilicé en proyectos en Smart Travel y en Olik",
+        "ngxShowFormErrors": "Biblioteca Angular que automatiza la exhibición de mensajes de error de validación de formularios",
+        "CashFlow": "Simulación de lanzamientos y reportes de flujo de caja en .NET, con pruebas unitarias (xUnit), comportamentales (BDD) y de carga (K6), contenerizada con Docker, usando PostgreSQL como base de datos y Seq para logs",
+        "BestRoute": "API .NET que, dadas N rutas, calcula el camino más barato entre dos puntos (nodos). Problema clásico de grafos, resuelto con el algoritmo de Dijkstra y cubierto por pruebas unitarias en xUnit",
+        "Test-C": "API .NET simple para búsqueda de productos, con reglas de negocio simuladas y base de datos en memoria"
     },
     "outrosCursos": "assets/i18n/es/outros-cursos.html",
     "livros": "assets/i18n/es/livros.html",
@@ -73,10 +90,20 @@
         "portugues": "Portugués: Nativo.",
         "espanhol": {
             "espanhol": "Español",
-            "intermediario": "Intermedio - Hablado, escrito.",
-            "avancado": "Avanzado - Comprensión, lectura."
+            "descricao": "Fluido (C1). Converso y escribo sin dificultad. Trabajé presencialmente en Santiago, Chile (2018)."
         },
-        "ingles": "Inglés: Intermedio (Buena comprensión lectora, pero aún no listo para una conversación en vivo)."
+        "ingles": {
+            "ingles": "Inglés",
+            "nivel": "Intermedio (B1-B2).",
+            "leituraLabel": "Lectura",
+            "leitura": "B2 – leo documentación técnica en el día a día.",
+            "escritaLabel": "Escritura",
+            "escrita": "B1.",
+            "compreensaoOralLabel": "Comprensión oral",
+            "compreensaoOral": "parcial, en desarrollo.",
+            "conversacaoLabel": "Conversación",
+            "conversacao": "básica, en desarrollo. Tengo buena pronunciación, pero aún me falta fluidez y vocabulario."
+        }
     },
     "experienciaProfissional": {
         "labels": {
@@ -92,80 +119,41 @@
             {
                 "nome": "Olik",
                 "inicio": "octubre de 2025",
-                "descricao": "Desarrollador .NET",
+                "fim": "octubre de 2026",
+                "descricao": "Tech Lead y desarrollador fullstack (.NET, Angular y Vue/Nuxt)",
                 "atividades": [
-                    "Desempeño como desarrollador .NET en la creación y mantenimiento ",
-                    "de softwares de la empresa, con enfoque principal en el sector de seguros."
+                    "Entré como desarrollador .NET y fui promovido a Tech Lead 6 meses después, en abril de 2026. Lideré primero un squad de 4 desarrolladores y 1 QA en la construcción de una aplicación mobile del sector de estética, utilizando .NET, Flutter y Angular. Luego pasé a liderar un squad del mismo tamaño en la creación desde cero de un producto especializado en el sector de seguros, para la aseguradora Fairfax, utilizando .NET y Vue/Nuxt. En este proyecto diseñé y desarrollé la arquitectura base, en Modular Monolith con BFF, además de orientar al equipo en la dirección de la solución a lo largo de las sprints. También enseñé al equipo a trabajar con Scrum y agilidad, establecí las ceremonias Scrum y los flujos de trabajo en Jira, y ayudé al Product Owner en la revisión y estructuración de las historias en el Backlog de Producto desde el inicio del proyecto, participando en las reuniones con el cliente y entendiendo las reglas y metas del producto de forma amplia.",
+                    "\nAdemás del trabajo en los squads, creé y lideré la iniciativa \"Papo de Código\" (Charla de Código), donde teníamos charlas quincenales con desarrolladores de toda la empresa, y también participaban profesionales de áreas relacionadas, como POs y gerentes. En estas reuniones levantaba temas de interés de los participantes y conducía las reuniones para que la conversación fluyera de forma natural."
                 ]
             },
             {
                 "nome": "MeuCashCard",
-                "consultoria": "SquadPremium",
+                "consultoria": "SquadPremium · contrato temporal",
                 "inicio": "diciembre de 2024",
                 "fim": "abril de 2025",
                 "descricao": "Tech Lead y desarrollador fullstack (.NET y Angular)",
                 "atividades": [
-                    "Actuación como Tech Lead en un equipo de 7 desarrolladores, ",
-                    "asistiendo al equipo en el desarrollo de las actividades, ",
-                    "comprensión de la arquitectura, mantenimiento de buenas ",
-                    "prácticas y convenciones de la empresa, Code Review ",
-                    "(análisis de Pull Requests), conducción de ceremonias y ",
-                    "mejoras en el flujo de desarrollo y de procesos. ",
-                    "También gestioné los impedimentos del equipo, resolviéndolos ",
-                    "directamente con otras áreas de la empresa o con empresas ",
-                    "externas. Desarrollo en el producto interno de la empresa, ",
-                    "que trataba especialmente de integraciones con diversos ",
-                    "sistemas externos, utilizando REST, SOAP e incluso RPA ",
-                    "(automatización) con Selenium, y disponibilización de ",
-                    "estos para consumo interno a través de APIs propias. ",
-                    "También se implementó el encolado utilizando Hangfire. ",
-                    "Principales herramientas: .NET, SQL Server, Azure DevOps y AWS. ",
-                    "Portal interno desarrollado en Angular. Proyecto con contrato temporal."
+                    "Actuación como tech lead de un equipo de 7 desarrolladores, auxiliando en el desarrollo de las actividades, comprensión de la arquitectura, mantenimiento de buenas prácticas y convenciones de la empresa, Code Review (análisis de Pull Requests), conducción de ceremonias y promoviendo mejoras en el flujo de desarrollo y en los procesos. También gestioné los impedimentos del equipo, resolviéndolos directamente con otras áreas de la empresa o con empresas externas.",
+                    "\nDesarrollo en un producto clave para permitir mayor automatización en los análisis de crédito, enfocado especialmente en integraciones con diversos sistemas externos, utilizando REST, SOAP e incluso RPA (automatización) con Selenium, y disponibilización de estos para consumo interno a través de APIs propias. También implementé encolado con Hangfire y auxilié en la configuración de Amazon Cognito para OIDC. Principales herramientas: .NET, SQL Server, Azure DevOps y AWS. Portal interno desarrollado en Angular."
                 ]
             },
             {
                 "nome": "THS Tecnologia",
                 "inicio": "junio de 2024",
                 "fim": "septiembre de 2024",
-                "descricao": "Desarrollador fullstack .NET y Angular",
+                "descricao": "Desarrollador fullstack (.NET y Angular)",
                 "atividades": [
-                    "Creación del nuevo sistema de intranet del CICC-SP, ",
-                    "desarrollando nuevas funcionalidades y realizando ",
-                    "mantenimiento de las ya existentes. Arquitectura ",
-                    "enfocada en Clean Architecture y CQRS, ",
-                    "utilizando ASP.NET, SQL Server y Angular."
+                    "Desarrollo del nuevo sistema de intranet del CICC-SP, desarrollando nuevas funcionalidades y realizando mantenimiento de las ya existentes. Arquitectura basada en Clean Architecture y CQRS, utilizando ASP.NET, SQL Server y Angular."
                 ]
             },
             {
                 "nome": "Smart Travel",
                 "inicio": "noviembre de 2022",
                 "fim": "junio de 2024",
-                "descricao": "Desarrollador fullstack .NET y Angular",
+                "descricao": "Desarrollador fullstack (.NET y Angular) y Arquitecto de Software",
                 "atividades": [
-                    "Desarrollo de nuevas funcionalidades, mantenimiento y ",
-                    "corrección de errores en el SmartBus, sistema de venta y ",
-                    "gestión de boletos de autobús, utilizando ASP.NET ",
-                    "(framework 4.6 y versiones 7 y 8), SQL Server, Angular, React y ",
-                    "RabbitMQ, en un sistema con arquitectura de tres capas ",
-                    "(BLL, DAL, UI). También actué como arquitecto, ",
-                    "donde fui responsable de la creación de dos proyectos ",
-                    "desde cero, tanto en el diseño de la arquitectura ",
-                    "como en la codificación, con el objetivo de procesar ",
-                    "datos en lote de alto volumen de manera asíncrona. ",
-                    "Los proyectos fueron creados para ser los nuevos modelos ",
-                    "estándar de los nuevos proyectos de la empresa. ",
-                    "En ellos, introduje nuevos patrones y tecnologías ",
-                    "en la empresa, implementando integración con encolado ",
-                    "utilizando RabbitMQ, logs en ElasticSearch usando ",
-                    "Serilog, patrón Result Pattern para el manejo de errores, ",
-                    "y nuevos patrones de arquitectura, con ambos usando ",
-                    "Clean Architecture, y uno de ellos, CQRS. ",
-                    "Los nuevos sistemas también representaron una mejora ",
-                    "significativa en la implementación del multitenancy ",
-                    "con respecto a la implementación anterior, con una ",
-                    "solución rediseñada desde cero, haciendo dinámica ",
-                    "la conexión con la base de datos según el cliente ",
-                    "seleccionado."
+                    "Desarrollo de nuevas funcionalidades, mantenimiento y corrección de errores en SmartBus, sistema de venta y gestión de pasajes de autobús, utilizando ASP.NET (framework 4.6, .NET 7 y .NET 8), SQL Server, Angular, React y RabbitMQ, en un sistema de arquitectura en capas tradicional (UI + BLL + DAL).",
+                    "\nComo arquitecto, fui responsable de la creación de dos proyectos desde cero, tanto en el diseño de la arquitectura como en la codificación, orientados al procesamiento asíncrono de alto volumen de datos en lote. Estos proyectos fueron creados para servir de modelo estándar para los nuevos proyectos de la empresa. En ellos introduje nuevos patrones y tecnologías, como integración con colas vía RabbitMQ, logs en ElasticSearch con Serilog, patrón Result Pattern para el manejo de errores, Clean Architecture en ambos y CQRS en uno de ellos, por ejemplo. Los nuevos sistemas también trajeron una mejora significativa en la implementación del multitenancy, con una solución rediseñada desde cero, haciendo dinámica la conexión con la base de datos según el cliente identificado en la solicitud."
                 ]
             },
             {
@@ -175,15 +163,7 @@
                 "fim": "septiembre de 2022",
                 "descricao": "Desarrollador .NET",
                 "atividades": [
-                    "Desarrollo utilizando ASP.NET 6, SQL Server, React, ",
-                    "MongoDB, RabbitMQ y NodeJS, entre otras tecnologías, ",
-                    "en una arquitectura de microservicios con CQRS. ",
-                    "Participación en el proyecto de reescritura desde ",
-                    "cero del Diario Oficial de São Paulo. ",
-                    "Participé en la creación de algunos proyectos .NET y, ",
-                    "como destaque, fui responsable de la creación desde ",
-                    "cero de un proyecto en NodeJS, utilizando colas de ",
-                    "RabbitMQ y Clean Architecture."
+                    "Actuación en el proyecto de reescritura desde cero del Diario Oficial del estado de São Paulo, utilizando ASP.NET (.NET 6), React, SQL Server, MongoDB, RabbitMQ y Node.js, entre otras tecnologías. Participé en la creación de algunos proyectos .NET y, como destaque, fui responsable de la creación desde cero de un proyecto en Node.js, con Clean Architecture y procesamiento vía colas de RabbitMQ."
                 ]
             },
             {
@@ -193,18 +173,7 @@
                 "fim": "junio de 2022",
                 "descricao": "Desarrollador fullstack .NET y Angular",
                 "atividades": [
-                    "Desarrollo de nuevas funcionalidades, mantenimiento y ",
-                    "corrección de errores en Radar, el sistema principal ",
-                    "de la empresa, que ofrece varias herramientas de ",
-                    "gestión para empresarios asociados. ",
-                    "Radar incluía desde el registro de asociados y productos, ",
-                    "gestión de campañas de marketing, hasta un pequeño ",
-                    "e-commerce embebido. Utilizamos principalmente ",
-                    "ASP.NET Core en las APIs, Angular en los frontends y ",
-                    "MySQL como base de datos, además de otras tecnologías ",
-                    "del entorno. También ayudé en la implementación de ",
-                    "colas usando RabbitMQ, y fui responsable del desarrollo ",
-                    "completo de varias épicas de extremo a extremo."
+                    "Desarrollo de nuevas funcionalidades, mantenimiento y corrección de errores en Radar, el principal sistema de la empresa, que ofrece diversas herramientas de gestión para los empresarios asociados, desde el registro de asociados y productos y la gestión de campañas de marketing hasta un pequeño e-commerce integrado. Utilizamos principalmente ASP.NET Core en las APIs, Angular en los front-ends y MySQL en la base de datos, entre otras tecnologías. Utilizábamos Sentry como servicio para rastreo de errores y monitoreo. El servicio de nube utilizado era AWS. Ayudé en la implementación de colas usando RabbitMQ y fui responsable del desarrollo de diversos épicos completos como fullstack, de punta a punta."
                 ]
             },
             {
@@ -212,43 +181,21 @@
                 "consultoria": "K2",
                 "inicio": "julio de 2020",
                 "fim": "junio de 2021",
-                "descricao": "Desarrollador .NET",
+                "descricao": "Desarrollador .NET y Security Champion",
                 "atividades": [
-                    "Mantenimiento, análisis y corrección de errores, ",
-                    "implementación de nuevas funcionalidades en APIs .NET Core, ",
-                    "con CQRS, SQL Server e integración con otros sistemas. ",
-                    "También ayudé a implementar colas con RabbitMQ. ",
-                    "Trabajé en el squad/microservicio de Cobranza PJ, ",
-                    "y actué como Security Champion del equipo, un papel ",
-                    "esencial en la integración con el squad de Seguridad ",
-                    "de la Información, del cual también formaba parte, ",
-                    "ayudando al equipo a promover mejores prácticas de ",
-                    "seguridad y corrección de posibles vulnerabilidades. ",
-                    "Tuve una participación destacada en la generación de ",
-                    "boletos PDF y en la reescritura completa del ",
-                    "módulo de generación de CNAB para soportar procesamiento de ",
-                    "grandes volúmenes de datos en lote."
+                    "Actuación en el squad responsable del microservicio de Cobranzas PJ, con mantenimiento, análisis y corrección de errores e implementación de nuevas funcionalidades en APIs .NET Core con CQRS, SQL Server e integración con otros sistemas. Ayudé a implementar el encolado de procesos con RabbitMQ. Tuve fuerte actuación en la generación de boletos en PDF y en la reescritura completa del módulo de generación de archivos CNAB, para soportar el procesamiento de alto volumen de datos en lote.",
+                    "\nFui el Security Champion del equipo, rol de integración con el squad de Seguridad de la Información, del cual también formaba parte, transmitiendo al equipo resultados de pentest, promoviendo buenas prácticas de seguridad y la corrección de posibles vulnerabilidades."
                 ]
             },
             {
                 "nome": "Itaú",
-                "consultoria": "Certsys",
+                "consultoria": "Certsys · contrato temporal",
                 "inicio": "septiembre de 2019",
                 "fim": "marzo de 2020",
                 "descricao": "Desarrollador .NET y Angular",
                 "atividades": [
-                    "Fui uno de los desarrolladores responsables de realizar ",
-                    "la migración y mejora (reescritura completa del código) ",
-                    "de un sistema interno legado de MPA (ASP.NET MVC antiguo) ",
-                    "a SPA con Angular y .NET Core. El proyecto consistía en ",
-                    "un sistema de control y gestión de scripts y rutinas ",
-                    "solicitadas por usuarios sin privilegios de ejecución. ",
-                    "El frontend fue rediseñado para ofrecer una interfaz más ",
-                    "amigable y atractiva, y el backend fue refactorizado para ",
-                    "atender al nuevo frontend y ser reemplazado por la ",
-                    "versión en .NET Core. Se realizaron pruebas de integración ",
-                    "utilizando Selênium. Se trató de un contrato temporal, ",
-                    "finalizado al agotarse las horas disponibles para la asignación."
+                    "Fui uno de los responsables de la reescritura total de un sistema legado interno, migrando de MPA (ASP.NET MVC tradicional) a SPA con Angular y .NET Core. El sistema controlaba y gestionaba scripts y rutinas solicitados por usuarios sin privilegio de ejecución, para posterior análisis y ejecución por el área responsable. El front-end fue rediseñado con una interfaz más moderna y usable, y el back-end fue refactorizado para atender al nuevo front-end y migrado a .NET Core. También implementé pruebas de integración con Selenium.",
+                    "\nLa contratación fue por contrato temporal, con horas asignadas específicamente para el proyecto en cuestión."
                 ]
             },
             {
@@ -256,110 +203,56 @@
                 "consultoria": "Indra",
                 "inicio": "marzo de 2019",
                 "fim": "septiembre de 2019",
-                "descricao": "Desarrollador front-end en Angular 7",
+                "descricao": "Desarrollador front-end y responsable técnico (Angular 7)",
                 "atividades": [
-                    "Fui responsable técnico de la creación del front-end ",
-                    "del sistema de Registro Nacional de Clientes, un sistema ",
-                    "interno importante que se estaba reescribiendo completamente, ",
-                    "permitiendo diversos tipos de consulta en toda la base ",
-                    "de datos de clientes. Desarrollé la arquitectura ",
-                    "(front-end) del proyecto desde cero, incluyendo tanto ",
-                    "la lógica de programación como el diseño, y programé la ",
-                    "mayor parte de él hasta mi salida. En este proyecto no ",
-                    "desarrollé back-end."
+                    "Fui el responsable técnico de la creación desde cero del front-end del nuevo Registro Nacional de Clientes, sistema interno importante que estaba siendo totalmente reescrito y que permitía diversos tipos de consulta en toda la base de clientes del banco. Definí y desarrollé la arquitectura del front-end desde cero, tanto la estructura de código como el layout, y desarrollé la mayor parte de la aplicación hasta mi salida. En este proyecto actué exclusivamente como front-end."
                 ]
             },
             {
                 "nome": "Bom Pra Crédito",
                 "inicio": "diciembre de 2018",
                 "fim": "febrero de 2019",
-                "descricao": "Desarrollador en .Net, .Net Core, AngularJS, Angular y NodeJS",
+                "descricao": "Desarrollador fullstack (.NET, .NET Core, AngularJS, Angular y Node.js)",
                 "atividades": [
-                    "Desarrollo de nuevas funcionalidades y corrección ",
-                    "de errores en los sistemas de la empresa. ",
-                    "El sistema principal era una plataforma de comparación de ",
-                    "ofertas de préstamos personales, desarrollada en .Net, ",
-                    "Angular y AngularJS. Se encontraba en proceso de migración ",
-                    "a .Net Core. Otros proyectos internos también utilizaban ",
-                    "tecnologías como NodeJS y Python. También trabajé creando ",
-                    "consultas para MongoDB y gestionando la ejecución de ",
-                    "algunos procesos de RPA desarrollados con Selenium."
+                    "Desarrollo de nuevas funcionalidades y corrección de defectos en los sistemas de la empresa. El sistema principal era un comparador de ofertas de préstamo personal, desarrollado en .NET, Angular y AngularJS, con migración en curso hacia .NET Core. Otros proyectos internos también utilizaban otras tecnologías, como NodeJS y Python. También creé queries para MongoDB y me encargué de la ejecución en producción de algunos RPAs construidos con Selenium."
                 ]
             },
             {
-                "nome": "XMS Business Solutions (Chile)",
+                "nome": "XMS Business Solutions (Chile, presencial)",
                 "inicio": "marzo de 2018",
                 "fim": "noviembre de 2018",
-                "descricao": "Desarrollador en .Net, .Net Core, AngularJS y Angular",
+                "descricao": "Desarrollador fullstack (.NET, .NET Core, AngularJS y Angular)",
                 "atividades": [
-                    "Consultoría y desarrollo de sistemas utilizando Asp.net ",
-                    "(Framework y Core), C#, SQL Server, AngularJS y Angular. ",
-                    "Como una fábrica de software, participé en el desarrollo ",
-                    "de varios productos de inicio a fin como desarrollador ",
-                    "full-stack .Net + Angular (JS y 2+), contribuyendo incluso ",
-                    "con modelados de entidades. Entre estos proyectos, ",
-                    "destacaron el sistema de control postventa de SalfaCorp, ",
-                    "una gigante de la ingeniería en Chile, y también un sistema ",
-                    "de cursos en línea, y otro completo de evaluaciones, ",
-                    "donde se podían registrar exámenes con diversos tipos ",
-                    "de preguntas, ejecución por el alumno, corrección automática ",
-                    "de las objetivas y corrección por el profesor de las ",
-                    "preguntas discursivas. Prácticas presenciales en Santiago de Chile."
+                    "Consultoría y desarrollo de sistemas en una fábrica de software, utilizando ASP.NET (Framework y Core), C#, SQL Server, AngularJS y Angular. Como desarrollador fullstack, participé en el desarrollo de diversos productos de inicio a fin, contribuyendo incluso con modelados de entidades y tablas. Entre los proyectos destaco el sistema de control de postventa de SalfaCorp, una de las mayores empresas de ingeniería de Chile; una plataforma de cursos online; y un sistema completo de evaluaciones, con registro de pruebas con diversos tipos de pregunta, aplicación al alumno, corrección automática de las cuestiones objetivas y corrección por el profesor de las discursivas.",
+                    "\nAsignación presencial en Santiago, Chile."
                 ]
             },
             {
                 "nome": "Confitec",
                 "inicio": "agosto de 2013",
                 "fim": "octubre de 2016",
-                "descricao": "Analista de sistemas y desarrollador en .Net",
+                "descricao": "Analista de sistemas y desarrollador (ASP.NET)",
                 "atividades": [
-                    "Trabajé inicialmente en el desarrollo del principal producto ",
-                    "propio de la empresa, el Gepro, un sistema que generaba ",
-                    "reportes y detectaba posibles inconsistencias en las bases ",
-                    "de datos de grandes aseguradoras del país. En este sistema, ",
-                    "usando Asp.net Webforms, Crystal Reports y MS Sql Server, ",
-                    "adquirí bastante experiencia en la creación y mantenimiento ",
-                    "de procedimientos, que eran la fuente de varios reportes de Crystal.",
-                    "<br>Después, me trasladé al Portal del Corredor, un sistema ",
-                    "importante de Brasil Brokers, utilizado por corredores y la ",
-                    "administración interna, donde se registraban tanto los inmuebles ",
-                    "como los clientes, los clientes potenciales con sus intereses, ",
-                    "y las ventas. Fue el proyecto en el que dediqué más tiempo en la empresa.",
-                    "<br>Ocasionalmente, también ayudaba en el portal de ",
-                    "Brasil Brokers, de otro equipo.",
-                    "<br>Ayudé en el desarrollo inicial de Girus, un nuevo ",
-                    "sistema similar a Gepro, para reaseguro.",
-                    "<br>Realicé trabajo de análisis y solución de errores, ",
-                    "desarrollo de nuevos módulos y funcionalidades del sistema, ",
-                    "levantamiento de requisitos con el cliente, redacción de documentación. ",
-                    "Principales tecnologías utilizadas: Asp.net, C# y SQL Server."
+                    "Inicialmente actué en Gepro, principal producto propio de la empresa, orientado a siniestros y sus provisiones, que generaba reportes y señalaba posibles inconsistencias en las bases de las grandes aseguradoras del país. En este sistema, desarrollado en ASP.NET Web Forms, Crystal Reports y SQL Server, gané bastante experiencia en la creación y mantenimiento de procedures, que eran la fuente de datos de diversos reportes.",
+                    "\nDespués pasé a trabajar en el Portal do Corretor, importante sistema de Brasil Brokers utilizado por corredores y por la administración interna, donde se registraban los inmuebles, los clientes, los clientes potenciales con sus intereses y las ventas. Fue el proyecto al que dediqué más tiempo en la empresa. Ocasionalmente también apoyaba al equipo responsable del portal de Brasil Brokers.",
+                    "\nAuxilié también en el desarrollo inicial de Girus, nuevo sistema de la empresa similar a Gepro, orientado al mercado de reaseguros.",
+                    "\nMis actividades incluían levantamiento de requisitos con el cliente, análisis y solución de errores, desarrollo de nuevos módulos y funcionalidades y escritura de documentación. Principales tecnologías: ASP.NET, C# y SQL Server."
                 ]
             },
             {
                 "nome": "IMAGO IT Solutions",
                 "inicio": "enero de 2013",
                 "fim": "junio de 2013",
-                "descricao": "Pasante en desarrollo web utilizando asp.net",
+                "descricao": "Prácticas en desarrollo web (ASP.NET)",
                 "atividades": [
-                    "Análisis y solución de errores; ayuda en el desarrollo de nuevos ",
-                    "sistemas; redacción de documentación y ejecución manual de pruebas. ",
-                    "Principales tecnologías utilizadas: Asp.net, C# y SQL Server. ",
-                    "El principal cliente para el que trabajé fue Cultura Inglesa, ",
-                    "donde participé en el desarrollo de un portal de enseñanza a ",
-                    "distancia (curso en línea) y en el mantenimiento de un sistema ",
-                    "en Asp clásico."
+                    "Análisis y solución de errores; apoyo en el desarrollo de nuevos sistemas; escritura de documentación y ejecución manual de pruebas. Principales tecnologías utilizadas: ASP.NET, C# y SQL Server. El principal cliente para el que trabajé fue Cultura Inglesa, donde participé en el desarrollo de un portal de enseñanza a distancia (curso online) y de mantenimiento en sistema en Asp clásico."
                 ]
             }
         ],
         "textoExtra": [
-            "Además de las experiencias mencionadas anteriormente, ",
-            "antes de ellas, realicé dos pasantías como desarrollador, ",
-            "dos prácticas en soporte técnico, fui técnico de mantenimiento informático ",
-            "en Caixa Econômica y mi primer empleo fue como operador ",
-            "de telemarketing en Tim, a los 18 años."
+            "Además de las experiencias citadas anteriormente, previamente realicé otras dos prácticas como desarrollador, dos veces en soporte técnico, trabajé como técnico de mantenimiento de computadoras en Caixa Econômica Federal (banco público brasileño), y mi primer empleo fue como operador de telemarketing de Tim, a los 18 años."
         ]
     },
     "sobreMim": "assets/i18n/es/sobre-mim.html",
     "apendiceCursos": "assets/i18n/es/apendice-cursos.html"
-
 }
