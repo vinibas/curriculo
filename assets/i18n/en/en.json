@@ -1,20 +1,26 @@
 {
     "configuracoes": {
-        "temaClaro": "Light Theme",
-        "temaEscuro": "Dark Theme",
-        "outrosTemas": [
-            {
-                "id": "dark2-theme",
-                "texto": "Dark Theme 2"
-            },
-            {
-                "id": "dark3-theme",
-                "texto": "Dark Theme 3"
-            }
-        ]
+        "idioma": "Language",
+        "baixarPdf": "Download the resume as PDF",
+        "dicaTema": "Right-click to see other themes",
+        "outrosTemas": "Other themes",
+        "tema": "Theme",
+        "modos": {
+            "claro": "Light",
+            "escuro": "Dark"
+        },
+        "temas": {
+            "claro": "Light",
+            "claro2": "Paper",
+            "escuro": "Dark",
+            "escuro2": "Lamplight",
+            "escuro3": "Midnight"
+        }
     },
     "principal": {
         "titulo": "Resume",
+        "expandirTudo": "Expand all",
+        "recolherTudo": "Collapse all",
         "secoes": {
             "apresentacao": "Summary",
             "habilidadesTecnicas": "Technical Skills",
@@ -107,13 +113,8 @@
     },
     "experienciaProfissional": {
         "labels": {
-            "empresa": "Company",
             "consultoria": "Consulting Firm",
-            "inicio": "Start",
-            "fim": "End",
-            "atual": "current",
-            "descricao": "Description",
-            "atividades": "Activities"
+            "atual": "current"
         },
         "empresas": [
             {

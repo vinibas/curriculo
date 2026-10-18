@@ -1,6 +1,20 @@
 
+// Breakpoints
+$xs: 480px;
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
+// Estrutura da página
+$largura-pagina: 860px;
+$altura-barra: 3.5rem;
+$margem-lateral: 0.5rem;
+
+// Tipografia (a Carlito, fonte do PDF, é derivada da Lato)
+$fonte: Lato, Carlito, Calibri, "Segoe UI", system-ui, sans-serif;
+
+// Acabamento
+$raio: 6px;
+$raio-pilula: 999px;
+$duracao: 200ms;

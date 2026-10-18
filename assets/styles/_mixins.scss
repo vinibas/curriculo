@@ -1,36 +1,12 @@
-@use "sass:map";
 
-@mixin theme($theme) {
-    .container-principal {
-        background-color: map.get($theme, color-primary);
-        color: map.get($theme, text-color);
-        box-shadow: 5px 5px 20px map.get($theme, box-shadow-color);
-    }
-
-    .card {
-        background-color: map.get($theme, color-tertiary);
-        color: map.get($theme, title-color);
-    }
-
-    .card-body {
-        background-color: map.get($theme, color-secondary);
-        color: map.get($theme, text-color);
-    }
-
-    #toggleThemeBtn {
-        background-color: map.get($theme, color-secondary);
-        color: map.get($theme, text-color);
-    }
-
-    .menuOutrosTemas {
-        background-color: map.get($theme, color-secondary);
-        color: map.get($theme, text-color);
-    }
-     
-    &:not(.light-theme) #linkPdfDownload {
-        background-color: map.get($theme, color-tertiary);
-        border: solid 3px map.get($theme, color-secondary);
-        border-radius: 3px;
+@mixin a-partir-de($largura) {
+    @media (min-width: $largura) {
+        @content;
     }
 }
 
+@mixin com-movimento {
+    @media (prefers-reduced-motion: no-preference) {
+        @content;
+    }
+}

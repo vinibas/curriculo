@@ -1,0 +1,58 @@
+@use "variables" as var;
+@use "mixins" as mx;
+
+// Tipografia do conteúdo das seções. Fica global porque parte do conteúdo chega por innerHTML
+// (arquivos .html em assets/i18n), e o encapsulamento de estilos do Angular não alcança esse HTML.
+
+.secao__conteudo {
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0 0 0.75em;
+
+    @include mx.a-partir-de(var.$sm) {
+      text-align: justify;
+    }
+  }
+
+  ul:not(.list-unstyle) {
+    padding-left: 1.25rem;
+  }
+
+  li {
+    margin: 0.25em 0;
+
+    &::marker {
+      color: var(--cor-destaque);
+    }
+  }
+
+  h4 {
+    margin: 1.75em 0 0.5em;
+    font-size: 1.05rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-color: var(--cor-destaque);
+    }
+  }
+
+  h5 {
+    margin: 1em 0 0.35em;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--cor-texto-suave);
+  }
+
+  u {
+    text-decoration-color: var(--cor-destaque);
+    text-underline-offset: 0.15em;
+  }
+}

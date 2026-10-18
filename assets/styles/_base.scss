@@ -1,0 +1,82 @@
+@use "variables" as var;
+
+// Reset mínimo e estilos dos elementos HTML (substitui o Reboot do Bootstrap)
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var.$fonte;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo);
+  background-image: var(--imagem-fundo);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em;
+  line-height: 1.25;
+  font-weight: 700;
+  color: var(--cor-titulo);
+}
+
+p,
+ul,
+ol,
+dl {
+  margin: 0 0 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--cor-destaque);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cor-destaque);
+  outline-offset: 2px;
+}
+
+::selection {
+  color: var(--cor-pagina);
+  background-color: var(--cor-destaque);
+}
+
+// Utilitários
+
+.list-unstyle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

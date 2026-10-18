@@ -1,20 +1,26 @@
 {
     "configuracoes": {
-        "temaClaro": "Tema claro",
-        "temaEscuro": "Tema oscuro",
-        "outrosTemas": [
-            {
-                "id": "dark2-theme",
-                "texto": "Tema oscuro 2"
-            },
-            {
-                "id": "dark3-theme",
-                "texto": "Tema oscuro 3"
-            }
-        ]
+        "idioma": "Idioma",
+        "baixarPdf": "Descargar el currículum en PDF",
+        "dicaTema": "Haz clic derecho para ver otros temas",
+        "outrosTemas": "Otros temas",
+        "tema": "Tema",
+        "modos": {
+            "claro": "Claro",
+            "escuro": "Oscuro"
+        },
+        "temas": {
+            "claro": "Claro",
+            "claro2": "Papel",
+            "escuro": "Oscuro",
+            "escuro2": "Lámpara",
+            "escuro3": "Medianoche"
+        }
     },
     "principal": {
         "titulo": "Currículum Vitae",
+        "expandirTudo": "Expandir todo",
+        "recolherTudo": "Contraer todo",
         "secoes": {
             "apresentacao": "Presentación",
             "habilidadesTecnicas": "Habilidades Técnicas",
@@ -107,13 +113,8 @@
     },
     "experienciaProfissional": {
         "labels": {
-            "empresa": "Empresa",
             "consultoria": "Consultoría",
-            "inicio": "Inicio",
-            "fim": "Fin",
-            "atual": "actual",
-            "descricao": "Descripción",
-            "atividades": "Actividades"
+            "atual": "actual"
         },
         "empresas": [
             {

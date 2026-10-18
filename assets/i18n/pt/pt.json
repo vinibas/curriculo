@@ -1,14 +1,26 @@
 {
     "configuracoes": {
-        "temaClaro": "Tema claro",
-        "temaEscuro": "Tema escuro",
-        "outrosTemas": [
-            { "id": "dark2-theme", "texto": "Tema escuro 2" },
-            { "id": "dark3-theme", "texto": "Tema escuro 3" }
-        ]
+        "idioma": "Idioma",
+        "baixarPdf": "Baixar o currículo em PDF",
+        "dicaTema": "Clique com o botão direito para ver outros temas",
+        "outrosTemas": "Outros temas",
+        "tema": "Tema",
+        "modos": {
+            "claro": "Claro",
+            "escuro": "Escuro"
+        },
+        "temas": {
+            "claro": "Claro",
+            "claro2": "Papel",
+            "escuro": "Escuro",
+            "escuro2": "Abajur",
+            "escuro3": "Meia-noite"
+        }
     },
     "principal": {
         "titulo": "Currículo",
+        "expandirTudo": "Expandir tudo",
+        "recolherTudo": "Recolher tudo",
         "secoes": {
             "apresentacao": "Apresentação",
             "habilidadesTecnicas": "Habilidades Técnicas",
@@ -106,13 +118,8 @@
     },
     "experienciaProfissional": {
         "labels": {
-            "empresa": "Empresa",
             "consultoria": "Consultoria",
-            "inicio": "Início",
-            "fim": "Fim",
-            "atual": "atual",
-            "descricao": "Descrição",
-            "atividades": "Atividades"
+            "atual": "atual"
         },
         "empresas": [
             {

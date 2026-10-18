@@ -1,36 +1,136 @@
+@use "sass:map";
 
-$light-theme: (
-  color-primary: #f5f5f5,
-  color-secondary: #fff,
-  color-tertiary: #f8f9fa,
-  text-color: #212529,
-  title-color: #212529,
-  box-shadow-color: #212529,
+// Único lugar com cores fixas. Os componentes usam apenas as variáveis CSS (var(--cor-…)).
+// Para criar um tema: adicione uma entrada em $temas, outra em `src/app/core/selecionar-tema/temas.ts`
+// e o rótulo em `configuracoes.temas` nos arquivos de tradução.
+
+// Cores iguais em todos os temas
+:root {
+  --cor-pdf: #d0021b;
+  --cor-pdf-texto: #fff6ea;
+  --cor-moldura-foto: #fff;
+  --sombra-foto: 0 2px 6px rgba(0, 0, 0, 0.3);
+  --filtro-sombra-icone: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+$temas: (
+  // Claro padrão: a página aberta no visualizador de PDF do Chrome
+  light-theme: (
+    esquema: light,
+    cor-fundo: #525659,
+    imagem-fundo: none,
+    cor-barra: #323639,
+    cor-barra-texto: #f1f3f4,
+    cor-barra-texto-suave: #bdc1c6,
+    cor-barra-realce: rgba(255, 255, 255, 0.14),
+    cor-barra-borda: rgba(255, 255, 255, 0.2),
+    sombra-barra: 0 1px 3px rgba(0, 0, 0, 0.4),
+    filtro-barra: none,
+    cor-pagina: #fff,
+    sombra-pagina: 0 2px 10px rgba(0, 0, 0, 0.35),
+    cor-superficie: #f3f4f6,
+    cor-texto: #202124,
+    cor-texto-suave: #5f6368,
+    cor-titulo: #202124,
+    cor-destaque: #1a5fb4,
+    cor-destaque-texto: #fff,
+    cor-borda: #e2e4e8,
+  ),
+  // Claro 2: papel sobre a mesa
+  light2-theme: (
+    esquema: light,
+    cor-fundo: #8e8a83,
+    imagem-fundo: radial-gradient(120% 90% at 50% 0%, #c4bfb6 0%, #9a958c 50%, #75716a 100%),
+    cor-barra: rgba(58, 54, 49, 0.72),
+    cor-barra-texto: #fbf8f2,
+    cor-barra-texto-suave: #ddd6ca,
+    cor-barra-realce: rgba(255, 255, 255, 0.16),
+    cor-barra-borda: rgba(255, 255, 255, 0.24),
+    sombra-barra: 0 1px 8px rgba(0, 0, 0, 0.18),
+    filtro-barra: blur(10px) saturate(140%),
+    cor-pagina: #fffdf8,
+    sombra-pagina: (0 1px 1px rgba(60, 50, 40, 0.1), 0 4px 10px rgba(60, 50, 40, 0.14), 0 18px 40px rgba(40, 30, 20, 0.22)),
+    cor-superficie: #f6f1e6,
+    cor-texto: #2d2a26,
+    cor-texto-suave: #6b655b,
+    cor-titulo: #24211d,
+    cor-destaque: #2f5d8a,
+    cor-destaque-texto: #fff,
+    cor-borda: #e7e0d2,
+  ),
+  dark-theme: (
+    esquema: dark,
+    cor-fundo: #15181d,
+    imagem-fundo: none,
+    cor-barra: #0e1013,
+    cor-barra-texto: #e6e8eb,
+    cor-barra-texto-suave: #9aa3ae,
+    cor-barra-realce: rgba(255, 255, 255, 0.1),
+    cor-barra-borda: rgba(255, 255, 255, 0.16),
+    sombra-barra: 0 1px 3px rgba(0, 0, 0, 0.6),
+    filtro-barra: none,
+    cor-pagina: #222831,
+    sombra-pagina: 0 2px 14px rgba(0, 0, 0, 0.55),
+    cor-superficie: #2a313b,
+    cor-texto: #e4e7eb,
+    cor-texto-suave: #a2abb7,
+    cor-titulo: #f3f5f7,
+    cor-destaque: #5fbab4,
+    cor-destaque-texto: #10161c,
+    cor-borda: #353d48,
+  ),
+  // Escuro 2: o papel sobre a mesa à noite, sob a luz de um abajur
+  dark2-theme: (
+    esquema: dark,
+    cor-fundo: #1d1915,
+    imagem-fundo: radial-gradient(120% 90% at 50% 0%, #4a4036 0%, #2a241e 50%, #161310 100%),
+    cor-barra: rgba(24, 20, 16, 0.72),
+    cor-barra-texto: #f4ede2,
+    cor-barra-texto-suave: #c9bda9,
+    cor-barra-realce: rgba(255, 236, 210, 0.12),
+    cor-barra-borda: rgba(255, 236, 210, 0.2),
+    sombra-barra: 0 1px 8px rgba(0, 0, 0, 0.35),
+    filtro-barra: blur(10px) saturate(140%),
+    cor-pagina: #2c2722,
+    sombra-pagina: (0 1px 1px rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.3), 0 18px 40px rgba(0, 0, 0, 0.45)),
+    cor-superficie: #37312a,
+    cor-texto: #e9e1d4,
+    cor-texto-suave: #b3a794,
+    cor-titulo: #f7f0e5,
+    cor-destaque: #e3a857,
+    cor-destaque-texto: #2c2722,
+    cor-borda: #453e35,
+  ),
+  // Escuro 3: azul-noite com destaque dourado
+  dark3-theme: (
+    esquema: dark,
+    cor-fundo: #0a1120,
+    imagem-fundo: none,
+    cor-barra: #070c17,
+    cor-barra-texto: #e8edf6,
+    cor-barra-texto-suave: #a4b1c7,
+    cor-barra-realce: rgba(232, 237, 246, 0.12),
+    cor-barra-borda: rgba(232, 237, 246, 0.18),
+    sombra-barra: 0 1px 3px rgba(0, 0, 0, 0.6),
+    filtro-barra: none,
+    cor-pagina: #15203a,
+    sombra-pagina: 0 2px 16px rgba(0, 0, 0, 0.55),
+    cor-superficie: #1d2a48,
+    cor-texto: #dde4f0,
+    cor-texto-suave: #9eadc6,
+    cor-titulo: #f4f7fc,
+    cor-destaque: #f2c978,
+    cor-destaque-texto: #15203a,
+    cor-borda: #283858,
+  ),
 );
 
-$dark-theme: (
-  color-primary: #222831,
-  color-secondary: #31363F,
-  color-tertiary: cadetblue,
-  text-color: #EEEEEE,
-  title-color: #222831,
-  box-shadow-color: #31363F,
-);
+@each $nome, $tema in $temas {
+  .#{$nome} {
+    color-scheme: map.get($tema, esquema);
 
-$dark2-theme: (
-  color-primary: #070F2B,
-  color-secondary: #1B1A55,
-  color-tertiary: #9290C3, // #535C91,
-  text-color: #abd2db,
-  title-color: #070F2B,
-  box-shadow-color: #1B1A55,
-);
-
-$dark3-theme: (
-  color-primary: #000B58,
-  color-secondary: #003161,
-  color-tertiary: #006A67,
-  text-color: #FFF4B7,
-  title-color: #000B58,
-  box-shadow-color: #003161,
-);
+    @each $token, $valor in map.remove($tema, esquema) {
+      --#{$token}: #{$valor};
+    }
+  }
+}
